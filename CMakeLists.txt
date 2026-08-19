@@ -11,6 +11,7 @@ set(CMAKE_CXX_STANDARD_REQUIRED ON)
 include_directories(include)
 
 add_executable(hello main.cpp)
+add_executable(repo_menu repo_menu.cpp)
 
 find_package(libgit2 REQUIRED CONFIG)
 
@@ -22,6 +23,7 @@ add_subdirectory(tvision) ## Submodule
 ## add_subdirectory(git2cpp)
 # target_link_libraries(hello tvision libgit2::libgit2package git2-cpp)
 target_link_libraries(hello tvision libgit2::libgit2package)
+target_link_libraries(repo_menu tvision libgit2::libgit2package)
 
 
 
