@@ -33,6 +33,7 @@
 
 const int GreetThemCmd = 100;
 const int myEntryCommand = 101;
+const int RepoCommand = 102;
 
 class THelloApp : public TApplication
 {
@@ -107,15 +108,20 @@ void THelloApp::handleEvent( TEvent& event )
 
 TMenuBar *THelloApp::initMenuBar( TRect r )
 {
-
     r.b.y = r.a.y+1;
 
     return new TMenuBar( r,
-      *new TSubMenu( "~H~ello", kbAltH ) +
-        *new TMenuItem( "~G~reeting...", GreetThemCmd, kbAltG ) +
-        *new TMenuItem( "My ~E~ntry", myEntryCommand, kbAltE ) +
-         newLine() +
-        *new TMenuItem( "E~x~it", cmQuit, cmQuit, hcNoContext, "Alt-X" )
+      *new TSubMenu( "~F~ile", kbAltF ) +
+        *new TMenuItem( "E~x~it", cmQuit, cmQuit, hcNoContext, "Alt-X" ) +
+     *new TSubMenu( "~R~epositories", kbAltR ) +
+        *new TMenuItem( "android-skyline-sampleapp", RepoCommand, kbNoKey ) +
+        *new TMenuItem( "ios-skyline-offlinesdk", RepoCommand, kbNoKey ) +
+        *new TMenuItem( "ios-skyline-offlinesdk-swift-package", RepoCommand, kbNoKey ) +
+        *new TMenuItem( "ios-skyline-sampleapp", RepoCommand, kbNoKey ) +
+        *new TMenuItem( "javacard-simulator", RepoCommand, kbNoKey ) +
+        *new TMenuItem( "middleware-skyline", RepoCommand, kbNoKey ) +
+        *new TMenuItem( "mobile-ios", RepoCommand, kbNoKey ) +
+        *new TMenuItem( "tvgit_pocs", RepoCommand, kbNoKey )
         );
 
 }
