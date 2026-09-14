@@ -20,10 +20,11 @@ find_package(libgit2 REQUIRED CONFIG)
 
 
 add_subdirectory(tvision) ## Submodule
+add_subdirectory(filesystem) ## Submodule
 ## add_subdirectory(git2cpp)
 # target_link_libraries(hello tvision libgit2::libgit2package git2-cpp)
-target_link_libraries(hello tvision libgit2::libgit2package)
-target_link_libraries(repo_menu tvision libgit2::libgit2package)
+target_link_libraries(hello tvision ghc_filesystem libgit2::libgit2package)
+target_link_libraries(repo_menu tvision ghc_filesystem libgit2::libgit2package)
 
 
 
