@@ -61,7 +61,7 @@ THelloApp::THelloApp() :
 
 void THelloApp::greetingBox()
 {
-    TDialog *d = new TDialog(TRect( 25, 5, 55, 16 ), "Hello, World!" );
+    TDialog *d = new TDialog(TRect( 25, 5, 55, 16 ), "Hello, World!!" );
 
     d->insert( new TStaticText( TRect( 3, 5, 15, 6 ), "How are you?" ) );
     d->insert( new TButton( TRect( 16, 2, 28, 4 ), "Terrific", cmCancel, bfNormal ) );
@@ -230,6 +230,10 @@ int du(int argc, char* argv[])
     }
     std::cout << totalSize << " bytes in " << totalFiles << " files and " << totalDirs << " directories, maximum depth: " << maxDepth << std::endl;
     return 0;
+}
+
+void printHome() {
+    
 }
 
 int main()

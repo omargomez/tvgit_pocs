@@ -1,0 +1,4 @@
+set(COMMON_SOURCES
+    ${CMAKE_CURRENT_SOURCE_DIR}/util.cpp
+    PARENT_SCOPE
+)

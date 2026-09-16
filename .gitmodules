@@ -4,3 +4,6 @@
 [submodule "filesystem"]
 	path = filesystem
 	url = https://github.com/gulrak/filesystem.git
+[submodule "json"]
+	path = json
+	url = https://github.com/nlohmann/json.git

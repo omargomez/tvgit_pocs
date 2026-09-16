@@ -26,6 +26,8 @@
 #define Uses_TStatusDef
 #define Uses_TDeskTop
 #include <tvision/tv.h>
+#include <iostream>
+#include "common/util.hpp"
 
 // Libgit
 #include <git2.h>
@@ -50,6 +52,8 @@ private:
 
     void greetingBox();
     void myEntryBox();
+    TSubMenu * hi();
+    static TSubMenu *app_repos();
 };
 
 THelloApp::THelloApp() :
@@ -58,6 +62,11 @@ THelloApp::THelloApp() :
                &THelloApp::initDeskTop
              )
 {
+    
+}
+
+TSubMenu * THelloApp::hi() {
+    return 0;
 }
 
 void THelloApp::greetingBox()
@@ -110,20 +119,24 @@ TMenuBar *THelloApp::initMenuBar( TRect r )
 {
     r.b.y = r.a.y+1;
 
+    auto repos_submenu = THelloApp::app_repos();
     return new TMenuBar( r,
       *new TSubMenu( "~F~ile", kbAltF ) +
         *new TMenuItem( "E~x~it", cmQuit, cmQuit, hcNoContext, "Alt-X" ) +
-     *new TSubMenu( "~R~epositories", kbAltR ) +
-        *new TMenuItem( "android-skyline-sampleapp", RepoCommand, kbNoKey ) +
-        *new TMenuItem( "ios-skyline-offlinesdk", RepoCommand, kbNoKey ) +
-        *new TMenuItem( "ios-skyline-offlinesdk-swift-package", RepoCommand, kbNoKey ) +
-        *new TMenuItem( "ios-skyline-sampleapp", RepoCommand, kbNoKey ) +
-        *new TMenuItem( "javacard-simulator", RepoCommand, kbNoKey ) +
-        *new TMenuItem( "middleware-skyline", RepoCommand, kbNoKey ) +
-        *new TMenuItem( "mobile-ios", RepoCommand, kbNoKey ) +
-        *new TMenuItem( "tvgit_pocs", RepoCommand, kbNoKey )
+    *repos_submenu
         );
 
+}
+
+TSubMenu *THelloApp::app_repos() {
+    TSubMenu* result = new TSubMenu( "~R~epositories", kbAltR );
+    
+    auto repos = get_repo_list();
+    for (const auto& r : repos) {
+        *result + *new TMenuItem( r, RepoCommand, kbNoKey );
+    }
+    
+    return result;
 }
 
 TStatusLine *THelloApp::initStatusLine( TRect r )
@@ -210,6 +223,14 @@ void show_commit(char const * shorthand) {
 
 int main()
 {
+    auto repos = get_repo_list();
+    for (const auto& r : repos) {
+            std::cout << r << '\n';
+        }
+
+//    return 0;
+    
+    
     THelloApp helloWorld;
     
     git2pp::Session git2;
