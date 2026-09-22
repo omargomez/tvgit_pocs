@@ -17,11 +17,12 @@ add_subdirectory(tvision) ## Submodule
 add_subdirectory(json) ## Submodule https://github.com/nlohmann/json.git
 
 add_executable(hello src/main.cpp)
-add_executable(repo_menu src/repo_menu.cpp ${COMMON_SOURCES})
+add_executable(repo_menu src/repo_menu.cpp ${MODEL_SOURCES} ${COMMON_SOURCES})
 add_executable(branch_demo src/branch_app.cpp ${MODEL_SOURCES} ${COMMON_SOURCES})
 
-target_include_directories(hello PRIVATE src)
-target_include_directories(repo_menu PRIVATE src)
+target_include_directories(hello PRIVATE src src/common src/model)
+target_include_directories(repo_menu PRIVATE src src/common src/model)
+target_include_directories(branch_demo PRIVATE src src/common src/model)
 
 find_package(libgit2 REQUIRED CONFIG)
 

@@ -34,9 +34,9 @@
 #define Uses_TStringCollection
 #include <tvision/tv.h>
 #include <iostream>
-#include "common/util.hpp"
-#include "model/branch.hpp"
-#include "model/commit.hpp"
+#include "util.hpp"
+#include "branch.hpp"
+#include "commit.hpp"
 
 // Libgit
 #include <git2.h>
@@ -170,6 +170,13 @@ public:
         addChildren();
     }
     
+    virtual void handleEvent( TEvent& event ) {
+        if (event.what == evKeyDown && event.keyDown.keyCode == kbEnter) {
+            // Open commit info
+        }
+        TDialog::handleEvent(event);
+    }
+    
     static ListDemoDlg* fromBranchRepository() {
         auto branches = get_branch_list();
         auto result = new ListDemoDlg();
@@ -217,7 +224,7 @@ private:
 
     void greetingBox();
     void myEntryBox();
-    void showCommits();
+    void showBranches();
     TSubMenu * hi();
     static TSubMenu *app_repos();
 };
@@ -260,7 +267,7 @@ void THelloApp::myEntryBox()
     destroy(d);
 }
 
-void THelloApp::showCommits()
+void THelloApp::showBranches()
 {
     TView *win = validView( ListDemoDlg::fromBranchRepository() );
     if( win != 0 )
@@ -283,7 +290,7 @@ void THelloApp::handleEvent( TEvent& event )
                 clearEvent( event );
                 break;
             case RepoCommand:
-                showCommits();
+                showBranches();
                 clearEvent( event );
                 break;
             default:

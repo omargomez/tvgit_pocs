@@ -6,6 +6,7 @@
 #include <stdexcept>
 #include <string>
 #include <nlohmann/json.hpp>
+#include "branch.hpp"
 
 // TODO: using json = nlohmann::json;
 
