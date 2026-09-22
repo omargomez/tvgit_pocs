@@ -48,3 +48,16 @@ std::vector<std::string> get_repo_list() {
     nlohmann::json parsed = nlohmann::json::parse(repo_str);
     return parsed.get<std::vector<std::string>>();
 }
+
+std::vector<BranchEntry> get_branch_list() {
+    auto branch_str = get_config_file_content("branches.json");
+    nlohmann::json parsed = nlohmann::json::parse(branch_str);
+
+    std::vector<BranchEntry> branches;
+    branches.reserve(parsed.size());
+    for (const auto& item : parsed) {
+        branches.push_back(map_branch_entry(item));
+    }
+
+    return branches;
+}

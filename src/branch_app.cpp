@@ -165,27 +165,39 @@ public:
 
     ListDemoDlg() :
     TWindowInit(&TDialog::initFrame),
-    TDialog( TRect( 5, 3, 75, 20 ), "Commits")
+    TDialog( TRect( 5, 3, 75, 20 ), "Branches")
     {
         addChildren();
     }
     
+    static ListDemoDlg* fromBranchRepository() {
+        auto branches = get_branch_list();
+        auto result = new ListDemoDlg();
+        result->setBranches(branches);
+        return result;
+    }
+    
 private:
+    
+    std::vector<BranchEntry> _branchVector;
+    TSortedListBox *branchListBox;
+    
+    void setBranches(const std::vector<BranchEntry> branches) {
+        _branchVector = std::move(branches);
+        auto list = new TStringCollection(100, 20);
+        for (auto &item : _branchVector) {
+            list->insert( newStr(item.branch) );
+        }
+        branchListBox->newList(list);
+    }
     
     void addChildren() {
         TRect viewBounds = getClipRect();
         viewBounds.grow( -1, -1 );
-        auto listBox = new TSortedListBox(viewBounds, 1, 0);
-        listBox->growMode = gfGrowHiX | gfGrowHiY; // make size follow window's
-        listBox->options = listBox->options | ofFramed;
-        auto list = new TStringCollection(100, 20);
-        list->insert( newStr("One") );
-        list->insert( newStr("Two") );
-        list->insert( newStr("3") );
-        list->insert( newStr("1️⃣") );
-        list->insert( newStr("🤗") );
-        listBox->newList(list);
-        insert( listBox );
+        branchListBox = new TSortedListBox(viewBounds, 1, 0);
+        branchListBox->growMode = gfGrowHiX | gfGrowHiY; // make size follow window's
+        branchListBox->options = branchListBox->options | ofFramed;
+        insert( branchListBox );
     }
 };
 
@@ -250,7 +262,7 @@ void THelloApp::myEntryBox()
 
 void THelloApp::showCommits()
 {
-    TView *win = validView( new ListDemoWin() );
+    TView *win = validView( ListDemoDlg::fromBranchRepository() );
     if( win != 0 )
         deskTop->insert( win );
 }
@@ -316,6 +328,16 @@ TStatusLine *THelloApp::initStatusLine( TRect r )
 
 int main()
 {
+#if 0
+    auto branches = get_branch_list();
+    for (const auto& item : branches) {
+        std::cout << item.branch << "\n";
+    }
+    
+    return 0;
+#endif
+    
+    
     THelloApp helloWorld;
     
     helloWorld.run();
