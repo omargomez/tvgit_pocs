@@ -1,0 +1,4 @@
+set(APP_SOURCES
+    ${CMAKE_CURRENT_SOURCE_DIR}/simple_app.cpp
+    PARENT_SCOPE
+)
