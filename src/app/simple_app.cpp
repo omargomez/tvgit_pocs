@@ -27,8 +27,13 @@
 #define Uses_TDeskTop
 #include <tvision/tv.h>
 
+#include "branches_dlg.hpp"
+#include "app_model.hpp"
+#include "data_access_factory.hpp"
+
 // Libgit
 const int GreetThemCmd = 100;
+const int RepoCommand = 102;
 
 class SimpleApp : public TApplication
 {
@@ -42,15 +47,19 @@ public:
     static TStatusLine *initStatusLine( TRect );
 
 private:
+    static AppModel model;
 
     void greetingBox();
+    static TSubMenu *repos_menu();
 };
+
+AppModel SimpleApp::model(DataAccessFactory::create_root_repo_data_access());
 
 SimpleApp::SimpleApp() :
     TProgInit( &SimpleApp::initStatusLine,
                &SimpleApp::initMenuBar,
                &SimpleApp::initDeskTop
-             )
+                         )
 {
 }
 
@@ -87,16 +96,14 @@ void SimpleApp::handleEvent( TEvent& event )
 
 TMenuBar *SimpleApp::initMenuBar( TRect r )
 {
-
     r.b.y = r.a.y+1;
 
+    auto repos_submenu = SimpleApp::repos_menu();
     return new TMenuBar( r,
-      *new TSubMenu( "~H~ello", kbAltH ) +
-        *new TMenuItem( "~G~reeting...", GreetThemCmd, kbAltG ) +
-         newLine() +
-        *new TMenuItem( "E~x~it", cmQuit, cmQuit, hcNoContext, "Alt-X" )
+      *new TSubMenu( "~F~ile", kbAltF ) +
+        *new TMenuItem( "E~x~it", cmQuit, cmQuit, hcNoContext, "Alt-X" ) +
+    *repos_submenu
         );
-
 }
 
 TStatusLine *SimpleApp::initStatusLine( TRect r )
@@ -107,6 +114,17 @@ TStatusLine *SimpleApp::initStatusLine( TRect r )
             *new TStatusItem( "~Alt-X~ Exit", kbAltX, cmQuit ) +
             *new TStatusItem( 0, kbF10, cmMenu )
             );
+}
+
+TSubMenu *SimpleApp::repos_menu() {
+    TSubMenu* result = new TSubMenu( "~R~epositories", kbAltR );
+    
+    auto repos = SimpleApp::model.root_repo_data_access.get_root_repos();
+    for (const auto& r : repos) {
+        *result + *new TMenuItem( r.name.c_str(), RepoCommand, kbNoKey );
+    }
+    
+    return result;
 }
 
 int main()
