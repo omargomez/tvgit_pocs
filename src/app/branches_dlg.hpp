@@ -11,6 +11,16 @@
 #include "root_repo.hpp"
 #include "branch_data_access.hpp"
 
+class BranchesDlg;
+
+class BranchesDlgDelegate
+{
+public:
+    virtual ~BranchesDlgDelegate() = default;
+
+    virtual void onBranchSelected(BranchesDlg *sender, const BranchEntry &branch) = 0;
+};
+
 class BranchesDlg : public TDialog
 {
 public:
@@ -21,11 +31,16 @@ public:
     virtual void handleEvent( TEvent& event ) {
         if (event.what == evKeyDown && event.keyDown.keyCode == kbEnter) {
             // Open commit info
+            if (_delegate != nullptr && branchListBox->focused >= 0 &&
+                branchListBox->focused < (short)_branchVector.size()) {
+                _delegate->onBranchSelected(this, _branchVector[branchListBox->focused]);
+            }
         }
         TDialog::handleEvent(event);
     }
     
     static BranchesDlg* fromBranchRepository(const RootRepo &repo);
+    void setDelegate(BranchesDlgDelegate *delegate) { _delegate = delegate; }
     void loadDataFromRepository() {
         auto branches = _branchDataAccess->get_branches();
         setBranches(branches);
@@ -37,6 +52,7 @@ private:
     TListBox *branchListBox;
     RootRepo _repo;
     std::unique_ptr<BranchDataAccess> _branchDataAccess;
+    BranchesDlgDelegate *_delegate = nullptr;
     
     void setBranches(const std::vector<BranchEntry> branches);
     void addChildren();

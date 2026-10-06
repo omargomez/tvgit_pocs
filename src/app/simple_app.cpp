@@ -35,32 +35,33 @@
 const int GreetThemCmd = 100;
 const int RepoCommand = 102;
 
-class SimpleApp : public TApplication
+class SimpleApp : public TApplication, public BranchesDlgDelegate
 {
 
 public:
 
     SimpleApp();
 
-    virtual void handleEvent( TEvent& event );
+    virtual void handleEvent( TEvent& event ) override;
     static TMenuBar *initMenuBar( TRect );
     static TStatusLine *initStatusLine( TRect );
 
+    void onBranchSelected(BranchesDlg *sender, const BranchEntry &branch) override;
+
 private:
-    static AppModel model;
+    AppModel model;
 
     void greetingBox();
     static TSubMenu *repos_menu();
     void showBranches();
 };
 
-AppModel SimpleApp::model(DataAccessFactory::create_root_repo_data_access());
-
 SimpleApp::SimpleApp() :
     TProgInit( &SimpleApp::initStatusLine,
                &SimpleApp::initMenuBar,
                &SimpleApp::initDeskTop
-                         )
+                         ),
+    model(DataAccessFactory::create_root_repo_data_access())
 {
 }
 
@@ -101,10 +102,20 @@ void SimpleApp::handleEvent( TEvent& event )
 
 void SimpleApp::showBranches()
 {
-    auto anyRepo = SimpleApp::model.root_repo_data_access.get_root_repos().front();
-    TView *win = validView( BranchesDlg::fromBranchRepository( anyRepo ) );
+    auto anyRepo = model.root_repo_data_access.get_root_repos().front();
+    auto win = (BranchesDlg *) validView( BranchesDlg::fromBranchRepository( anyRepo ) );
     if( win != 0 )
+        {
+        win->setDelegate( this );
         deskTop->insert( win );
+        }
+}
+
+void SimpleApp::onBranchSelected(BranchesDlg *sender, const BranchEntry &branch)
+{
+    // TODO open commits for the selected branch
+    (void)sender;
+    (void)branch;
 }
 
 TMenuBar *SimpleApp::initMenuBar( TRect r )
@@ -132,7 +143,7 @@ TStatusLine *SimpleApp::initStatusLine( TRect r )
 TSubMenu *SimpleApp::repos_menu() {
     TSubMenu* result = new TSubMenu( "~R~epositories", kbAltR );
     
-    auto repos = SimpleApp::model.root_repo_data_access.get_root_repos();
+    auto repos = DataAccessFactory::create_root_repo_data_access().get_root_repos();
     for (const auto& r : repos) {
         *result + *new TMenuItem( r.name.c_str(), RepoCommand, kbNoKey );
     }

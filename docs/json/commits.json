@@ -1,0 +1,1458 @@
+[
+  {
+    "commit": "135ff9c7d821f4fb56061feef8f8637aeb8fcf7a",
+    "author": "Omar Eduardo Gomez",
+    "email": "gomeomar@gi-de.com",
+    "date": "2026-10-06T15:57:57+02:00",
+    "subject": "MR Feedback II"
+  },
+  {
+    "commit": "4f035dbad24b2a53a779480e0c4a5c872beae75f",
+    "author": "Omar Eduardo Gomez",
+    "email": "gomeomar@gi-de.com",
+    "date": "2026-10-05T15:35:56+02:00",
+    "subject": "FIL-3813 MR fedback I"
+  },
+  {
+    "commit": "ce1f08afe758286a56e6372be1bbb001d6064813",
+    "author": "Omar Eduardo Gomez",
+    "email": "gomeomar@gi-de.com",
+    "date": "2026-10-01T11:17:33+02:00",
+    "subject": "FIL-3813 New retry API update"
+  },
+  {
+    "commit": "aa345b4d049a484c10d991544cf16f77e8fdbdc9",
+    "author": "Omar Eduardo Gomez",
+    "email": "gomeomar@gi-de.com",
+    "date": "2026-10-01T11:17:33+02:00",
+    "subject": "FIL-3813 New retry API update"
+  },
+  {
+    "commit": "7a01070fac5e2bfd9c5f6ac2d1d9b1405891024f",
+    "author": "Omar Eduardo Gomez",
+    "email": "gomeomar@gi-de.com",
+    "date": "2026-09-29T12:47:02+02:00",
+    "subject": "FIL-3790 Catch comm error and handle retry with transaction id"
+  },
+  {
+    "commit": "badeb3d8579c0b00548b73b5fef3f6eb597fd9f2",
+    "author": "Omar Eduardo Gomez",
+    "email": "gomeomar@gi-de.com",
+    "date": "2026-09-29T11:43:43+02:00",
+    "subject": "TEMP1"
+  },
+  {
+    "commit": "64fc817c5156a8f85cb8dfaf84c6ec4f06b6f027",
+    "author": "Calatrava Javier",
+    "email": "javier.calatrava@gi-de.com",
+    "date": "2026-09-21T17:31:00+02:00",
+    "subject": "Merge branch 'fix/FIL-3524-CloudSimulator' into 'main'"
+  },
+  {
+    "commit": "db1b07056bbf5c3ddeb4df4b7af401a61c8ed45a",
+    "author": "Calatrava Javier",
+    "email": "javier.calatrava@gi-de.com",
+    "date": "2026-09-21T17:31:00+02:00",
+    "subject": "FIL-3424 Fix show cloud configuration"
+  },
+  {
+    "commit": "5093f74733b7c14990b694ee909a99071c330d31",
+    "author": "Javier Calatrava",
+    "email": "javier.calatrava@gi-de.com",
+    "date": "2026-09-21T17:02:56+02:00",
+    "subject": "Fix show cloud configuration"
+  },
+  {
+    "commit": "13145d6631f5aacb8c2178c51bfe1bfccf0b364a",
+    "author": "Gomez Omar Eduardo",
+    "email": "omareduardo.gomez@gi-de.com",
+    "date": "2026-09-21T13:59:41Z",
+    "subject": "Merge branch 'fix/FIL-3784-usb-mode-fix' into 'main'"
+  },
+  {
+    "commit": "afd39738fbf2a35f360d650cd3275c140190b550",
+    "author": "Omar Eduardo Gomez",
+    "email": "gomeomar@gi-de.com",
+    "date": "2026-09-21T15:40:19+02:00",
+    "subject": "FIL-3784 Select mode only when successful"
+  },
+  {
+    "commit": "ab7236fa0279df6251bfdd920541eab9d19d14cd",
+    "author": "Gomez Omar Eduardo",
+    "email": "omareduardo.gomez@gi-de.com",
+    "date": "2026-09-18T12:40:28Z",
+    "subject": "Merge branch 'fix/FIL-3756-wallet-config-list' into 'main'"
+  },
+  {
+    "commit": "7a63ddc092bcfd5dcb72bb9c6367dab77c319baf",
+    "author": "Omar Eduardo Gomez",
+    "email": "gomeomar@gi-de.com",
+    "date": "2026-09-18T14:20:45+02:00",
+    "subject": "FIL-3756 Config picker order"
+  },
+  {
+    "commit": "c4d3da3c7ac1ba2eb90b3f9c2fe2b1910a3413a7",
+    "author": "Omar Eduardo Gomez",
+    "email": "gomeomar@gi-de.com",
+    "date": "2026-09-18T14:04:49+02:00",
+    "subject": "TEMP1"
+  },
+  {
+    "commit": "7dbad500b9f45056afde47a972f2e06b8b37cb21",
+    "author": "Gomez Omar Eduardo",
+    "email": "omareduardo.gomez@gi-de.com",
+    "date": "2026-09-17T08:47:21Z",
+    "subject": "Merge branch 'feat/FIL-3504-custom-logger-final-integration' into 'main'"
+  },
+  {
+    "commit": "e531d06ec2ab297db6070e654aec9312e37921aa",
+    "author": "Gomez Omar Eduardo",
+    "email": "omareduardo.gomez@gi-de.com",
+    "date": "2026-09-17T08:47:20Z",
+    "subject": "FIL-3504 \"Feat/ custom logger final integration\""
+  },
+  {
+    "commit": "1e0329d9d16af2d304e02634e2e8b457bfabdb29",
+    "author": "Omar Eduardo Gomez",
+    "email": "gomeomar@gi-de.com",
+    "date": "2026-09-16T17:13:59+02:00",
+    "subject": "FIL-3504 Clean up refactor"
+  },
+  {
+    "commit": "ae5d9398a0c7dfc9ffce16d06097e8d0595aad04",
+    "author": "Omar Eduardo Gomez",
+    "email": "gomeomar@gi-de.com",
+    "date": "2026-09-16T13:26:38+02:00",
+    "subject": "FIL-3504 Logger adapter and integration"
+  },
+  {
+    "commit": "9fa6a495f2e1b00199a43b8b352607f98dc516de",
+    "author": "Omar Eduardo Gomez",
+    "email": "gomeomar@gi-de.com",
+    "date": "2026-09-08T12:13:33+02:00",
+    "subject": "FIL-3504 Crash manager to log stack traces when log's ready"
+  },
+  {
+    "commit": "8f722000e2a22acc784245eb3a6f1716e7c4e00a",
+    "author": "Calatrava Javier",
+    "email": "javier.calatrava@gi-de.com",
+    "date": "2026-09-16T18:08:47+02:00",
+    "subject": "Merge branch 'feat/FIL-3428-CloudSimulatorInterface' into 'main'"
+  },
+  {
+    "commit": "946f31c96b543c45cf320347e1eb2423771b70ec",
+    "author": "Javier Calatrava",
+    "email": "javier.calatrava@gi-de.com",
+    "date": "2026-09-16T17:47:31+02:00",
+    "subject": "FIL-3528 Cloud Simulator on sample app."
+  },
+  {
+    "commit": "b525a9cd32957f917adf670a09906cc962e02d02",
+    "author": "Gomez Omar Eduardo",
+    "email": "omareduardo.gomez@gi-de.com",
+    "date": "2026-09-16T08:23:42Z",
+    "subject": "Merge branch 'feat/FIL-3504-coredata-impl' into 'main'"
+  },
+  {
+    "commit": "6dac36bd5cea48e4192e350e5ee02b76a8aed47d",
+    "author": "Gomez Omar Eduardo",
+    "email": "omareduardo.gomez@gi-de.com",
+    "date": "2026-09-16T08:23:41Z",
+    "subject": "FIL-3504 Logger facilty backd up by Core data"
+  },
+  {
+    "commit": "2046d546d190a38ccab1bbb8ef38c0986de7eefd",
+    "author": "Omar Eduardo Gomez",
+    "email": "gomeomar@gi-de.com",
+    "date": "2026-09-10T12:15:35+02:00",
+    "subject": "FIL-3504-Logger-integration"
+  },
+  {
+    "commit": "4f3db945276770f52c02e5ad96999659d59e9c12",
+    "author": "Omar Eduardo Gomez",
+    "email": "gomeomar@gi-de.com",
+    "date": "2026-09-10T11:50:09+02:00",
+    "subject": "FLI-3504-things-to-rebase"
+  },
+  {
+    "commit": "f371c96be556e7cb50ad9945e5059c1f751f4a46",
+    "author": "Omar Eduardo Gomez",
+    "email": "gomeomar@gi-de.com",
+    "date": "2026-09-08T12:13:33+02:00",
+    "subject": "FIL-3504 Crash manager to log stack traces when log's ready"
+  },
+  {
+    "commit": "91b44db382b68eafc0da61c16798422a4b034a91",
+    "author": "Omar Eduardo Gomez",
+    "email": "gomeomar@gi-de.com",
+    "date": "2026-09-09T12:02:33+02:00",
+    "subject": "TEMP1"
+  },
+  {
+    "commit": "5efee08db583cb8ba6715d30b38809e4bbe1354d",
+    "author": "Omar Eduardo Gomez",
+    "email": "gomeomar@gi-de.com",
+    "date": "2026-09-08T17:24:49+02:00",
+    "subject": "FIL-3504 File rolling simple implementation"
+  },
+  {
+    "commit": "dea131d57889e22d7ab6165d6ce8b8b78d8b2f1a",
+    "author": "Omar Eduardo Gomez",
+    "email": "gomeomar@gi-de.com",
+    "date": "2026-09-08T12:13:33+02:00",
+    "subject": "FIL-3504 Crash manager to log stack traces when log's ready"
+  },
+  {
+    "commit": "39ba44a295a26996e40a7b823af1155188a61940",
+    "author": "Omar Eduardo Gomez",
+    "email": "gomeomar@gi-de.com",
+    "date": "2026-09-07T16:27:16+02:00",
+    "subject": "FIL-3504 Logger facilty backd up by Core data"
+  },
+  {
+    "commit": "cea4e1c1c346700b6e4ef31e95bc63cedd4d07cc",
+    "author": "Calatrava Javier",
+    "email": "javier.calatrava@gi-de.com",
+    "date": "2026-09-07T16:31:34+02:00",
+    "subject": "Merge branch 'fix/FIL-3528-AmmendErrorMessage' into 'main'"
+  },
+  {
+    "commit": "13c577e6a6d08e094dab9c0386c1189a7daed5d3",
+    "author": "Calatrava Javier",
+    "email": "javier.calatrava@gi-de.com",
+    "date": "2026-09-07T16:31:33+02:00",
+    "subject": "FIL-3528 Ammend error messages."
+  },
+  {
+    "commit": "9aeaa4df269424a436f6873b74b1350a10cb2fd8",
+    "author": "GitLab CI",
+    "email": "gitlab-ci@gi-de.com",
+    "date": "2026-09-07T16:13:11+02:00",
+    "subject": "FIL-3528 Unify mock error messages"
+  },
+  {
+    "commit": "f4fa5d2c3a6d83d5bf606eb899e976e5ccd42dec",
+    "author": "Omar Eduardo Gomez",
+    "email": "gomeomar@gi-de.com",
+    "date": "2026-09-07T15:46:28+02:00",
+    "subject": "On sandbox/coredata: test buttons for coredata testing"
+  },
+  {
+    "commit": "7b5bda3cfee7345c00d8cf12d102b6b36af9a90b",
+    "author": "Omar Eduardo Gomez",
+    "email": "gomeomar@gi-de.com",
+    "date": "2026-09-07T15:46:28+02:00",
+    "subject": "index on sandbox/coredata: 9049236 TEMP1"
+  },
+  {
+    "commit": "90492362ff08b2396f8605fe39587f3cc8a24ee4",
+    "author": "Omar Eduardo Gomez",
+    "email": "gomeomar@gi-de.com",
+    "date": "2026-09-07T15:46:05+02:00",
+    "subject": "TEMP1"
+  },
+  {
+    "commit": "40b54669ab6225465f6896dd4c87c36ada4efcda",
+    "author": "Javier Calatrava",
+    "email": "javier.calatrava@gi-de.com",
+    "date": "2026-09-07T11:36:20+02:00",
+    "subject": "FIL-3528 Ammend error messages."
+  },
+  {
+    "commit": "6b032c93719ef4cadb5ea787b970717b14b526c3",
+    "author": "Omar Eduardo Gomez",
+    "email": "gomeomar@gi-de.com",
+    "date": "2026-09-07T10:11:13+02:00",
+    "subject": "FIL-3504-Logger-class-added"
+  },
+  {
+    "commit": "0746200735cd3a9f06ddd9e8fb7c1e23850424f3",
+    "author": "Kolarz Julian",
+    "email": "julian.kolarz@gi-de.com",
+    "date": "2026-09-03T14:55:34Z",
+    "subject": "Merge branch 'fix/FIL-3525-fix-errors' into 'main'"
+  },
+  {
+    "commit": "e4852e5f1cf4c1bb54f780dc2278816d4f3659af",
+    "author": "Kolarz Julian",
+    "email": "julian.kolarz@gi-de.com",
+    "date": "2026-09-03T14:55:33Z",
+    "subject": "FIL-3525 fix errors"
+  },
+  {
+    "commit": "feafc5e0714e4e4e3bb01483b11240a511c83aa3",
+    "author": "Omar Eduardo Gomez",
+    "email": "gomeomar@gi-de.com",
+    "date": "2026-09-03T16:23:54+02:00",
+    "subject": "sdk 0.6.14 integration"
+  },
+  {
+    "commit": "ec07b2e8de5d70d357e91951ccf0601cc28864e5",
+    "author": "Julian Kolarz",
+    "email": "julian.kolarz@gi-de.com",
+    "date": "2026-09-03T14:47:18+02:00",
+    "subject": "FIL-3525 set exact SDK version to 0.6.14"
+  },
+  {
+    "commit": "c60fbf3d6c768bbde59314b405401501051f34df",
+    "author": "Julian Kolarz",
+    "email": "julian.kolarz@gi-de.com",
+    "date": "2026-09-03T14:20:53+02:00",
+    "subject": "FIL-3525 added sdk 0.6.14 and fix errors"
+  },
+  {
+    "commit": "f2f9eabff98d0cf94f263c568db82f869f4c5428",
+    "author": "Calatrava Javier",
+    "email": "javier.calatrava@gi-de.com",
+    "date": "2026-09-02T15:24:31+02:00",
+    "subject": "Merge branch 'feat/FIL-3528-AddressErrorMessages' into 'main'"
+  },
+  {
+    "commit": "151e6386848c86f129420faf4fabeb96a7607f63",
+    "author": "Javier Calatrava",
+    "email": "javier.calatrava@gi-de.com",
+    "date": "2026-09-02T11:56:42+02:00",
+    "subject": "FIL-3528 Align error messages with Android and create an integration test target"
+  },
+  {
+    "commit": "43ffc0fa73dbe2a657cccbfa2969f37ac59defc8",
+    "author": "Calatrava Javier",
+    "email": "javier.calatrava@gi-de.com",
+    "date": "2026-08-31T14:05:58+02:00",
+    "subject": "Merge branch 'feat/FIL-3527-EnableWalletInfoForUSB' into 'main'"
+  },
+  {
+    "commit": "16f76b27f7cf5a62a838f35b05fd1b7fb552dfdd",
+    "author": "Javier Calatrava",
+    "email": "javier.calatrava@gi-de.com",
+    "date": "2026-08-31T13:59:01+02:00",
+    "subject": "FIL-3527 Enable Wallet Information for Simulator and USB-C Card reader interface"
+  },
+  {
+    "commit": "730b17b6026e50e4bace8dad1997ca709563aba4",
+    "author": "Calatrava Javier",
+    "email": "javier.calatrava@gi-de.com",
+    "date": "2026-08-28T15:24:04+02:00",
+    "subject": "Merge branch 'feat/FIL-2263-P2PPaymentRetry' into 'main'"
+  },
+  {
+    "commit": "0129aedd7e5ca9fc60b2074f1816d1e13bf1fc27",
+    "author": "Calatrava Javier",
+    "email": "javier.calatrava@gi-de.com",
+    "date": "2026-08-28T15:24:03+02:00",
+    "subject": "FIL-2263 P2P Retry payment implementation"
+  },
+  {
+    "commit": "340d9165c314ef994df12076e51405343e9d73ca",
+    "author": "GitLab CI",
+    "email": "gitlab-ci@gi-de.com",
+    "date": "2026-08-28T14:03:05+02:00",
+    "subject": "Address PR comments"
+  },
+  {
+    "commit": "d99d23bf6800b2528bdf4be513aebc2fc07ea86b",
+    "author": "GitLab CI",
+    "email": "gitlab-ci@gi-de.com",
+    "date": "2026-08-28T13:33:29+02:00",
+    "subject": "FIL-2263 P2P Retry payment implementation"
+  },
+  {
+    "commit": "0f8221968a716e4878b064fb24f84a8a46b1a0c2",
+    "author": "Kolarz Julian",
+    "email": "julian.kolarz@gi-de.com",
+    "date": "2026-08-26T12:46:49Z",
+    "subject": "Merge branch 'fix/FIL-3451-fix-payment-bugs' into 'main'"
+  },
+  {
+    "commit": "8a7b5c97a8a23330f12657a57374a3f5a7d1c631",
+    "author": "Kolarz Julian",
+    "email": "julian.kolarz@gi-de.com",
+    "date": "2026-08-26T12:46:48Z",
+    "subject": "FIL-3451 Update SDK that fixes FIL-3451 and FIL-3452"
+  },
+  {
+    "commit": "f2d0343ac07af2fe6773b11e97368087474999ce",
+    "author": "GitLab CI",
+    "email": "gitlab-ci@gi-de.com",
+    "date": "2026-08-26T14:21:11+02:00",
+    "subject": "Update SDK that fixes FIL-3451 and FIL-3452"
+  },
+  {
+    "commit": "b34b4c33fcd281befde8453f13963e4e4ad2e71a",
+    "author": "Omar Eduardo Gomez",
+    "email": "gomeomar@gi-de.com",
+    "date": "2026-08-26T12:07:22+02:00",
+    "subject": "TEMP1"
+  },
+  {
+    "commit": "5b0417559a1b003c477726a3c75939a255771423",
+    "author": "Gomez Omar Eduardo",
+    "email": "omareduardo.gomez@gi-de.com",
+    "date": "2026-08-26T10:02:06Z",
+    "subject": "Merge branch 'fix/FIL-3363-defund-error-II' into 'main'"
+  },
+  {
+    "commit": "d2ce84c1d6011e7119fb813af6794e6d4e14fd2a",
+    "author": "Omar Eduardo Gomez",
+    "email": "gomeomar@gi-de.com",
+    "date": "2026-08-26T10:50:18+02:00",
+    "subject": "FIL-3363 new sdk and usb adapter"
+  },
+  {
+    "commit": "f27ea80e7dd05c19f0fb5c09dbceef6c882255fc",
+    "author": "Omar Eduardo Gomez",
+    "email": "gomeomar@gi-de.com",
+    "date": "2026-08-26T10:12:10+02:00",
+    "subject": "FIL-3363 Usb adapter framework update"
+  },
+  {
+    "commit": "6e0043c3fead3642a00863465aa2a28c88ae7221",
+    "author": "Omar Eduardo Gomez",
+    "email": "gomeomar@gi-de.com",
+    "date": "2026-08-24T14:27:00+02:00",
+    "subject": "TEMP1"
+  },
+  {
+    "commit": "8a510ed9d911b8890f043e3a80b1d4e10767b3a1",
+    "author": "Gomez Omar Eduardo",
+    "email": "omareduardo.gomez@gi-de.com",
+    "date": "2026-08-21T11:23:18Z",
+    "subject": "Merge branch 'fix/FIL-3354-long-delay' into 'main'"
+  },
+  {
+    "commit": "cb304c866dc175d047f6f0bca96c7c32ecf5fad2",
+    "author": "Omar Eduardo Gomez",
+    "email": "gomeomar@gi-de.com",
+    "date": "2026-08-21T12:23:36+02:00",
+    "subject": "FIL-3354 Delay added, picker disabled while waiting connection"
+  },
+  {
+    "commit": "e3499187e5e6e16af932cde511a905fbd37c3b19",
+    "author": "Gomez Omar Eduardo",
+    "email": "omareduardo.gomez@gi-de.com",
+    "date": "2026-08-20T12:57:04Z",
+    "subject": "Merge branch 'fix/FIL-3363-defund-error-III' into 'main'"
+  },
+  {
+    "commit": "6144aca603fed525afffe441f2b6c36b96e840f0",
+    "author": "Gomez Omar Eduardo",
+    "email": "omareduardo.gomez@gi-de.com",
+    "date": "2026-08-20T12:57:04Z",
+    "subject": "FIL-3363 . Returning same wallet instance"
+  },
+  {
+    "commit": "ce1250353e8f2c93cf82bfeda9ef5cafc0783744",
+    "author": "Omar Eduardo Gomez",
+    "email": "gomeomar@gi-de.com",
+    "date": "2026-08-19T16:49:38+02:00",
+    "subject": "PR feedback"
+  },
+  {
+    "commit": "e6616808ee0201cb8f2ef91aec572d1f3e80aacd",
+    "author": "Calatrava Javier",
+    "email": "javier.calatrava@gi-de.com",
+    "date": "2026-08-19T16:43:50+02:00",
+    "subject": "Merge branch 'feat/FIL-2902-p2p' into 'main'"
+  },
+  {
+    "commit": "c51e87995a797b9ef7f6ec7de8ba65d4d1543a8d",
+    "author": "Calatrava Javier",
+    "email": "javier.calatrava@gi-de.com",
+    "date": "2026-08-19T16:43:50+02:00",
+    "subject": "FIL-2902 p2p Happy path"
+  },
+  {
+    "commit": "08e320f5616b4d9233a1c08b394ff2db0494babd",
+    "author": "GitLab CI",
+    "email": "gitlab-ci@gi-de.com",
+    "date": "2026-08-19T16:06:33+02:00",
+    "subject": "Update to OfflineSdk 0.6.9"
+  },
+  {
+    "commit": "3ab6933c65e3f836caf97f4c748b1f788b00ed40",
+    "author": "Omar Eduardo Gomez",
+    "email": "gomeomar@gi-de.com",
+    "date": "2026-08-19T15:59:37+02:00",
+    "subject": "FIL-3363. Returning same wallet instance"
+  },
+  {
+    "commit": "c65a44d44daef1c7e3f56743091e9feca0221fc8",
+    "author": "Omar Eduardo Gomez",
+    "email": "gomeomar@gi-de.com",
+    "date": "2026-08-19T15:33:55+02:00",
+    "subject": "TEMP1"
+  },
+  {
+    "commit": "449ad3555fbe3ddf16289cd77b8f45f80ebfe2e9",
+    "author": "GitLab CI",
+    "email": "gitlab-ci@gi-de.com",
+    "date": "2026-08-19T08:26:26+02:00",
+    "subject": "FIL-2902 P2P Happy path implementation"
+  },
+  {
+    "commit": "e7bdd640e5515c2056303029080bfa49ee16f395",
+    "author": "GitLab CI",
+    "email": "gitlab-ci@gi-de.com",
+    "date": "2026-08-18T17:55:11+02:00",
+    "subject": "Updated SDK Version to 0.6.8"
+  },
+  {
+    "commit": "eee9a4e9b550f07fb949b30b9bd840c07fa321df",
+    "author": "Omar Eduardo Gomez",
+    "email": "gomeomar@gi-de.com",
+    "date": "2026-08-18T10:41:22+02:00",
+    "subject": "FIL-3363 New safe UI Button"
+  },
+  {
+    "commit": "99ebc265b55217cc735ed4f0a2fa74ae4a10a056",
+    "author": "GitLab CI",
+    "email": "gitlab-ci@gi-de.com",
+    "date": "2026-08-11T16:09:12+02:00",
+    "subject": "Updated .gitlab-ci.yml with main"
+  },
+  {
+    "commit": "f5685feb43aa19e327cd91dcf16cff762bd829c9",
+    "author": "Calatrava Javier",
+    "email": "javier.calatrava@gi-de.com",
+    "date": "2026-08-11T09:50:44+02:00",
+    "subject": "Merge branch 'feat/FIL-2807-UpdateToOfflineSdk0-6-6' into 'main'"
+  },
+  {
+    "commit": "550fa00262b74e85435d95ff4542b84014a08462",
+    "author": "Calatrava Javier",
+    "email": "javier.calatrava@gi-de.com",
+    "date": "2026-08-11T09:50:44+02:00",
+    "subject": "FIL-2807 Update to OfflineSdk 0.6.6"
+  },
+  {
+    "commit": "b6794feee7192b3a0167e700debb7e343374ea7b",
+    "author": "GitLab CI",
+    "email": "gitlab-ci@gi-de.com",
+    "date": "2026-08-10T12:43:52+02:00",
+    "subject": "Fix nested session on Integrity Check success."
+  },
+  {
+    "commit": "078b49d705d2fbf11373facd1ea73ed05a25f90c",
+    "author": "Gomez Omar Eduardo",
+    "email": "omareduardo.gomez@gi-de.com",
+    "date": "2026-08-10T09:28:45Z",
+    "subject": "Merge branch 'fix/FIL-2826-error-message' into 'main'"
+  },
+  {
+    "commit": "68792e443532a5fae01754ad3495d42238f58f00",
+    "author": "GitLab CI",
+    "email": "gitlab-ci@gi-de.com",
+    "date": "2026-08-10T11:02:37+02:00",
+    "subject": "Update to OfflineSdk 0.6.6"
+  },
+  {
+    "commit": "598b850da0ed9d3f7ab094ea7e343cdf537a7770",
+    "author": "Omar Eduardo Gomez",
+    "email": "gomeomar@gi-de.com",
+    "date": "2026-08-07T10:52:20+02:00",
+    "subject": "FIL-2826 Error message handling"
+  },
+  {
+    "commit": "f3cea12675997be3da3e920d8d4ab23077c67700",
+    "author": "Gomez Omar Eduardo",
+    "email": "omareduardo.gomez@gi-de.com",
+    "date": "2026-08-06T11:47:08Z",
+    "subject": "Merge branch 'fix/FIL-2806-reset-message-fix' into 'main'"
+  },
+  {
+    "commit": "0a862ab258ffa1aeeafaca3b62ae027fbbf1a7c6",
+    "author": "Omar Eduardo Gomez",
+    "email": "gomeomar@gi-de.com",
+    "date": "2026-08-05T10:37:02+02:00",
+    "subject": "FIL-2806 Status cleaned on view appear"
+  },
+  {
+    "commit": "c6a000f345796627d7a509ec37d0abcc066394f0",
+    "author": "Calatrava Javier",
+    "email": "javier.calatrava@gi-de.com",
+    "date": "2026-08-03T12:28:34+02:00",
+    "subject": "Merge branch 'feat/FIL-2526-SupportUBCCardReaderAdapter' into 'main'"
+  },
+  {
+    "commit": "d86510482791a647cc7c63a81071514b093b86e8",
+    "author": "Calatrava Javier",
+    "email": "javier.calatrava@gi-de.com",
+    "date": "2026-08-03T12:28:33+02:00",
+    "subject": "FIl-2526 Integrate offlineSdk 0.6.5"
+  },
+  {
+    "commit": "a8bebae3b70d7f5e447074a7d7e5c4265e1b2c26",
+    "author": "GitLab CI",
+    "email": "gitlab-ci@gi-de.com",
+    "date": "2026-08-03T11:07:34+02:00",
+    "subject": "Replaced OfflineSdk-AcsUsb by une that Is not embeding OfflineSdk"
+  },
+  {
+    "commit": "32d07cd0cc9ec7662a2370294ce6c88baf487b32",
+    "author": "GitLab CI",
+    "email": "gitlab-ci@gi-de.com",
+    "date": "2026-07-30T18:10:13+02:00",
+    "subject": "Integrate OfflineSdk 0.6.5 and OfflineSdkj-AcsUsb static libraty."
+  },
+  {
+    "commit": "3f1a1b2cd5d020f2dccbe09979ff2c11c9aa5843",
+    "author": "GitLab CI",
+    "email": "gitlab-ci@gi-de.com",
+    "date": "2026-08-03T11:07:34+02:00",
+    "subject": "Replaced OfflineSdk-AcsUsb by une that Is not embeding OfflineSdk"
+  },
+  {
+    "commit": "d0d8303e890f6651a8add5cbc98910c86a861833",
+    "author": "Calatrava Javier",
+    "email": "javier.calatrava@gi-de.com",
+    "date": "2026-07-31T12:53:48+02:00",
+    "subject": "Merge branch 'feat/FIL-2526-SupportUBCCardReaderAdapter' into 'main'"
+  },
+  {
+    "commit": "9cba9c3b5b5b206c23206f9cc279998f25556395",
+    "author": "Calatrava Javier",
+    "email": "javier.calatrava@gi-de.com",
+    "date": "2026-07-31T12:53:48+02:00",
+    "subject": "FIL-2526 Integrate OfflineSDK SPM version 0.6.5"
+  },
+  {
+    "commit": "b6714c6b653d1d94d7c2793833deeef643c3a5b7",
+    "author": "GitLab CI",
+    "email": "gitlab-ci@gi-de.com",
+    "date": "2026-07-31T12:34:50+02:00",
+    "subject": "Address pr comment. Run swiftformat."
+  },
+  {
+    "commit": "9e7c8232cec358e80fdfa3b3c64eacfb17c7d274",
+    "author": "GitLab CI",
+    "email": "gitlab-ci@gi-de.com",
+    "date": "2026-07-31T12:21:43+02:00",
+    "subject": "Fix compilation failure after external integration branch."
+  },
+  {
+    "commit": "138a7f8f2e072858c4e61eb075a287540c8bed32",
+    "author": "Calatrava Javier",
+    "email": "javier.calatrava@gi-de.com",
+    "date": "2026-07-31T12:15:54+02:00",
+    "subject": "Merge branch 'main' into 'feat/FIL-2526-SupportUBCCardReaderAdapter'"
+  },
+  {
+    "commit": "c74c0afc56844163946a91f4221eac3385bf2a07",
+    "author": "GitLab CI",
+    "email": "gitlab-ci@gi-de.com",
+    "date": "2026-07-31T10:36:28+02:00",
+    "subject": "Ammend text message Aim to official 0.6.5 OfflineSdk SPM"
+  },
+  {
+    "commit": "5a7440a07b9d7ebdf5c2a0314271383b23c6dac2",
+    "author": "Gomez Omar Eduardo",
+    "email": "omareduardo.gomez@gi-de.com",
+    "date": "2026-07-31T07:32:42Z",
+    "subject": "Merge branch 'FIL-1739-sample-app-reset' into 'main'"
+  },
+  {
+    "commit": "21af148b90410a68f1e2db0dbea9268a5df45247",
+    "author": "Gomez Omar Eduardo",
+    "email": "omareduardo.gomez@gi-de.com",
+    "date": "2026-07-31T07:32:42Z",
+    "subject": "FIL-1739 Reset operation added"
+  },
+  {
+    "commit": "fb0878514c7e73e5c7d61a3c79ca10a093d0f430",
+    "author": "GitLab CI",
+    "email": "gitlab-ci@gi-de.com",
+    "date": "2026-07-30T18:10:13+02:00",
+    "subject": "Integrate OfflineSdk 0.6.5 and OfflineSdkj-AcsUsb static libraty."
+  },
+  {
+    "commit": "420d2c0b8d49468541a1b553f226198693996692",
+    "author": "Omar Eduardo Gomez",
+    "email": "gomeomar@gi-de.com",
+    "date": "2026-07-29T17:29:54+02:00",
+    "subject": "MR Feedback"
+  },
+  {
+    "commit": "d62730e0a5043783abc04d415f0daab939dc1b97",
+    "author": "Omar Eduardo Gomez",
+    "email": "gomeomar@gi-de.com",
+    "date": "2026-07-28T11:21:15+02:00",
+    "subject": "FIL-1739 Reset operation added"
+  },
+  {
+    "commit": "4fb4e6db8f43d8b38c56a64a69e8d1ad4abc2cd9",
+    "author": "Javier Calatrava",
+    "email": "javier.calatrava@gi-de.com",
+    "date": "2026-07-27T15:52:15+02:00",
+    "subject": "Remove USB-C card reader source code and include OfflineSdk-AcsUsb xcframework."
+  },
+  {
+    "commit": "18d68897667279e12229fa0dd89a813fa98c01aa",
+    "author": "Calatrava Javier",
+    "email": "javier.calatrava@gi-de.com",
+    "date": "2026-07-24T13:12:47+02:00",
+    "subject": "Merge branch 'feat/FIL-2522-ReleaseAlfaIdea-0-6-4' into 'main'"
+  },
+  {
+    "commit": "89001445f42c9a4ce9c0285528fa314560f91bde",
+    "author": "Calatrava Javier",
+    "email": "javier.calatrava@gi-de.com",
+    "date": "2026-07-24T13:12:46+02:00",
+    "subject": "FIL-2522 Update Offline skd version to 0.6.4-rc2"
+  },
+  {
+    "commit": "fabc10efdb2bc2177a66ead2ec99ec9a0b61760a",
+    "author": "Gomez Omar Eduardo",
+    "email": "omareduardo.gomez@gi-de.com",
+    "date": "2026-07-17T11:14:38Z",
+    "subject": "Merge branch 'feat/FIL-1742-integrity-check' into 'main'"
+  },
+  {
+    "commit": "e338c4765b35c0229ac2e943c3705df26ba261f7",
+    "author": "Javier Calatrava",
+    "email": "javier.calatrava@gi-de.com",
+    "date": "2026-07-17T10:36:15+02:00",
+    "subject": "Fix error message."
+  },
+  {
+    "commit": "88c3c73ccb1e9cab687b786fa27475174d2036ec",
+    "author": "Omar Eduardo Gomez",
+    "email": "gomeomar@gi-de.com",
+    "date": "2026-07-15T16:19:09+02:00",
+    "subject": "FIL-1742 Integrity check added for Simulator adapter"
+  },
+  {
+    "commit": "003334fe2d093b088692d68f11e5fb636bc0e216",
+    "author": "Javier Calatrava",
+    "email": "javier.calatrava@gi-de.com",
+    "date": "2026-07-16T17:52:08+02:00",
+    "subject": "Support USB-C card reader interface."
+  },
+  {
+    "commit": "4295acf0bd0f55e63c0feb084ccd592addb73eca",
+    "author": "Gomez Omar Eduardo",
+    "email": "omareduardo.gomez@gi-de.com",
+    "date": "2026-07-14T09:24:39Z",
+    "subject": "Merge branch 'feat/FIL-2357-tag-testing' into 'main'"
+  },
+  {
+    "commit": "636ed302ec8d51c4a887c5516db6be9f021e7183",
+    "author": "Omar Eduardo Gomez",
+    "email": "gomeomar@gi-de.com",
+    "date": "2026-07-13T14:24:22+02:00",
+    "subject": "FIL-2357 accessibilityIdentifier added"
+  },
+  {
+    "commit": "65e7bf93e4ad9e492377d04eb0586f1b0cc56e4b",
+    "author": "Gomez Omar Eduardo",
+    "email": "omareduardo.gomez@gi-de.com",
+    "date": "2026-07-13T07:41:33Z",
+    "subject": "Merge branch 'feat/FIL-1778-defunding-sample-app' into 'main'"
+  },
+  {
+    "commit": "ff75667ad72a7c2c9728747647ecfcf666d0c788",
+    "author": "Gomez Omar Eduardo",
+    "email": "omareduardo.gomez@gi-de.com",
+    "date": "2026-07-13T07:41:33Z",
+    "subject": "FIL-1778 Enabling simulator defunding"
+  },
+  {
+    "commit": "059b30384be8b4040adacc3515c98f7ae55e8921",
+    "author": "Omar Eduardo Gomez",
+    "email": "gomeomar@gi-de.com",
+    "date": "2026-07-10T15:01:35+02:00",
+    "subject": "QA feedback"
+  },
+  {
+    "commit": "e08a3dd5c7606dc796bb91fd22ba350789be9626",
+    "author": "Omar Eduardo Gomez",
+    "email": "gomeomar@gi-de.com",
+    "date": "2026-07-09T12:01:07+02:00",
+    "subject": "FIL-1778 Enabling simulator defunding"
+  },
+  {
+    "commit": "487ebbb5922735804ff4177f2a7c569792764711",
+    "author": "Omar Eduardo Gomez",
+    "email": "gomeomar@gi-de.com",
+    "date": "2026-07-09T09:24:27+02:00",
+    "subject": "TEMP1"
+  },
+  {
+    "commit": "1650081f96ac947defa3857f25968f0cf8adcc11",
+    "author": "Gomez Omar Eduardo",
+    "email": "omareduardo.gomez@gi-de.com",
+    "date": "2026-07-08T14:56:30Z",
+    "subject": "Merge branch 'feat/FIL-2211-UI-android-UI-alignment' into 'main'"
+  },
+  {
+    "commit": "b1b78f545dabb079cd23dd8a1b441f4a322cddac",
+    "author": "Gomez Omar Eduardo",
+    "email": "omareduardo.gomez@gi-de.com",
+    "date": "2026-07-08T14:56:30Z",
+    "subject": "FIL-2211 QA Feedback"
+  },
+  {
+    "commit": "f781a7db4c60f853899eb6964a77da51952c5e2f",
+    "author": "Omar Eduardo Gomez",
+    "email": "gomeomar@gi-de.com",
+    "date": "2026-07-07T16:20:57+02:00",
+    "subject": "QA Feedback"
+  },
+  {
+    "commit": "eac1f8e63d09befd0530ed4ba04014a192a3989d",
+    "author": "Gomez Omar Eduardo",
+    "email": "omareduardo.gomez@gi-de.com",
+    "date": "2026-07-07T08:00:27Z",
+    "subject": "Merge branch 'feat/FIL-2211-UI-android-UI-alignment' into 'main'"
+  },
+  {
+    "commit": "76f02440c8d6b7a757f2a8331c30f4c1c39140b4",
+    "author": "Omar Eduardo Gomez",
+    "email": "gomeomar@gi-de.com",
+    "date": "2026-07-07T09:33:51+02:00",
+    "subject": "FIL-2211 UI Android alignment"
+  },
+  {
+    "commit": "f17be4adefcbaece3147eb74620cb162d4c0a367",
+    "author": "Kolarz Julian",
+    "email": "julian.kolarz@gi-de.com",
+    "date": "2026-07-07T06:08:33Z",
+    "subject": "Merge branch 'fix/FIL-2194-fix-mock-P2P-payment' into 'main'"
+  },
+  {
+    "commit": "32fa8760549f1b1c46e7900f58cbbceae3a50e68",
+    "author": "GitLab CI",
+    "email": "gitlab-ci@gi-de.com",
+    "date": "2026-07-06T17:54:44+02:00",
+    "subject": "FIL-2194 fix P2P mock payment bug and added OfflineSdk version"
+  },
+  {
+    "commit": "ba0bcd5a6c70233bc642b097bdcd24bc7f94638e",
+    "author": "Gomez Omar Eduardo",
+    "email": "omareduardo.gomez@gi-de.com",
+    "date": "2026-07-02T14:17:15Z",
+    "subject": "Merge branch 'feat/FIL-0000-sdk_sync' into 'main'"
+  },
+  {
+    "commit": "bc381cb97325fbbe139536f032f226b59ba78a40",
+    "author": "Omar Eduardo Gomez",
+    "email": "gomeomar@gi-de.com",
+    "date": "2026-07-02T16:11:39+02:00",
+    "subject": "FIL-0000 SDK sync"
+  },
+  {
+    "commit": "2f2767d7db30b90ca6366023889cd0025313ea4e",
+    "author": "Gomez Omar Eduardo",
+    "email": "omareduardo.gomez@gi-de.com",
+    "date": "2026-07-02T12:08:43Z",
+    "subject": "Merge branch 'feat/FIL-2230-disable_simulator_buttons' into 'main'"
+  },
+  {
+    "commit": "37c876bfa39d974277b68c10262f5d05072a73fd",
+    "author": "Gomez Omar Eduardo",
+    "email": "omareduardo.gomez@gi-de.com",
+    "date": "2026-07-02T12:08:43Z",
+    "subject": "FIL-2230 disable options for non supportes simulator options"
+  },
+  {
+    "commit": "0b86fea7cafabc0132570d651b137daa6ecbfa9c",
+    "author": "Omar Eduardo Gomez",
+    "email": "gomeomar@gi-de.com",
+    "date": "2026-07-02T12:10:20+02:00",
+    "subject": "SDK update"
+  },
+  {
+    "commit": "ed69ed48d457db32950130748e1df7c63a6307e4",
+    "author": "Omar Eduardo Gomez",
+    "email": "gomeomar@gi-de.com",
+    "date": "2026-07-01T16:10:54+02:00",
+    "subject": "FIL-2230 disable options for non supportes simulator options"
+  },
+  {
+    "commit": "7fa1ec17c9424781d51d69777cc8aa4a5e36aca7",
+    "author": "Gomez Omar Eduardo",
+    "email": "omareduardo.gomez@gi-de.com",
+    "date": "2026-06-29T14:28:14Z",
+    "subject": "Merge branch 'feat/FIL-1708-wallet_selection_II' into 'main'"
+  },
+  {
+    "commit": "085838d67c714636604116b9bd4474db3bf4c67e",
+    "author": "Gomez Omar Eduardo",
+    "email": "omareduardo.gomez@gi-de.com",
+    "date": "2026-06-29T14:28:14Z",
+    "subject": "FIL-1708 Configuration feature"
+  },
+  {
+    "commit": "a777e007787a5dde4c467a7aeeda4c6f8d9f459c",
+    "author": "Omar Eduardo Gomez",
+    "email": "gomeomar@gi-de.com",
+    "date": "2026-06-29T16:10:16+02:00",
+    "subject": "MR feedback"
+  },
+  {
+    "commit": "ea861261fe6491da5274f05dd8d85b7331619221",
+    "author": "Julian Kolarz",
+    "email": "julian.kolarz@gi-de.com",
+    "date": "2026-06-29T15:47:07+02:00",
+    "subject": "FIL-1708 improved enum handling"
+  },
+  {
+    "commit": "e943577d295c78bf1ad307241d5b030ac9a13fc0",
+    "author": "Omar Eduardo Gomez",
+    "email": "gomeomar@gi-de.com",
+    "date": "2026-06-29T14:10:12+02:00",
+    "subject": "FIL-1708 Configuration feature"
+  },
+  {
+    "commit": "54a57ab09e37985baa9a089ccfb1a874652027e9",
+    "author": "Omar Eduardo Gomez",
+    "email": "gomeomar@gi-de.com",
+    "date": "2026-06-26T12:35:38+02:00",
+    "subject": "FIL-1708 Wallet configuration feature"
+  },
+  {
+    "commit": "7df40a697a17971c197baa966d1230c5d0ee7d83",
+    "author": "Calatrava Javier",
+    "email": "javier.calatrava@gi-de.com",
+    "date": "2026-06-12T14:11:44+02:00",
+    "subject": "Merge branch 'refactor/FIL-1169-refactor-error-handling_v2' into 'main'"
+  },
+  {
+    "commit": "4d4e00cce6aa8d949247e4aaa43102c51d58bbe4",
+    "author": "Calatrava Javier",
+    "email": "javier.calatrava@gi-de.com",
+    "date": "2026-06-12T14:11:44+02:00",
+    "subject": "FIL-1169 refactor error handling"
+  },
+  {
+    "commit": "b6accc3e86fc4729f7f908fb3b3da4e639738526",
+    "author": "Kolarz Julian",
+    "email": "julian.kolarz@gi-de.com",
+    "date": "2026-06-08T14:16:36Z",
+    "subject": "Merge branch 'chore/FIL-1979-add-adhoc-ipa' into 'main'"
+  },
+  {
+    "commit": "828c2d1fe7f60e34530f35902c67a25d83271a78",
+    "author": "Kolarz Julian",
+    "email": "julian.kolarz@gi-de.com",
+    "date": "2026-06-08T14:16:36Z",
+    "subject": "FIL-1979 Archive app for adhoc distribution"
+  },
+  {
+    "commit": "57f443a7b1b02b42e8c4304bfd5965990d39379d",
+    "author": "Kolarz Julian",
+    "email": "julian.kolarz@gi-de.com",
+    "date": "2026-06-08T11:34:34Z",
+    "subject": "Fix ADHOC_ARTIFACT_ZIP_NAME naming"
+  },
+  {
+    "commit": "4c875fa9dd1f649fac58140b357f1af8b260f682",
+    "author": "Kolarz Julian",
+    "email": "julian.kolarz@gi-de.com",
+    "date": "2026-06-08T11:26:47Z",
+    "subject": "Link adhoc builds to release"
+  },
+  {
+    "commit": "ec211eaf47400499beac5b8410ed0cb465f78440",
+    "author": "Kolarz Julian",
+    "email": "julian.kolarz@gi-de.com",
+    "date": "2026-06-08T11:13:20Z",
+    "subject": "Added comment how to set the UUID of the provisioning profiles in the pipeline variables"
+  },
+  {
+    "commit": "a193db870c22a16f68ec37f8f57779b4173069b8",
+    "author": "Kolarz Julian",
+    "email": "julian.kolarz@gi-de.com",
+    "date": "2026-06-08T11:02:59Z",
+    "subject": "Fix exportOptions.plist creation to use ad-hoc method for exporting for Adhoc .ipa"
+  },
+  {
+    "commit": "94a07039875f83b6a80606578f8cc96ef2a6e71d",
+    "author": "Kolarz Julian",
+    "email": "julian.kolarz@gi-de.com",
+    "date": "2026-06-08T10:56:31Z",
+    "subject": "Updated provisioning profiles UUIDs"
+  },
+  {
+    "commit": "1008a21439ddfe524fdfc2b3df2d8215f8974d85",
+    "author": "Kolarz Julian",
+    "email": "julian.kolarz@gi-de.com",
+    "date": "2026-06-08T10:39:48Z",
+    "subject": "Make the upload to testflight stage manual"
+  },
+  {
+    "commit": "293260526b3326d27a797eb38af78a0991868bae",
+    "author": "Calatrava Javier",
+    "email": "javier.calatrava@gi-de.com",
+    "date": "2026-06-08T12:38:05+02:00",
+    "subject": "Merge branch 'feat/FIL-1635-sdk-sync' into 'main'"
+  },
+  {
+    "commit": "0fe7b0edf31ce3a1d60dc526cd0df34925c82f8c",
+    "author": "Omar Eduardo Gomez",
+    "email": "gomeomar@gi-de.com",
+    "date": "2026-06-08T12:35:01+02:00",
+    "subject": "FIL-1635 Sdk sync"
+  },
+  {
+    "commit": "32c94f031c38122fa75e457c5dbd5aab0f2fe5e6",
+    "author": "Kolarz Julian",
+    "email": "julian.kolarz@gi-de.com",
+    "date": "2026-06-08T10:33:22Z",
+    "subject": "Added archiveAdhoc step to the pipeline"
+  },
+  {
+    "commit": "d5258ba46061d7eea402b01101ee63439d3591aa",
+    "author": "Javier Calatrava",
+    "email": "javier.calatrava@gi-de.com",
+    "date": "2026-06-08T10:26:10+02:00",
+    "subject": "Address PR comments"
+  },
+  {
+    "commit": "2697aaf5c4e21005da07611150bf4d8a472bfae5",
+    "author": "Javier Calatrava",
+    "email": "javier.calatrava@gi-de.com",
+    "date": "2026-06-05T16:15:39+02:00",
+    "subject": "FIL-1169 refactor error handling"
+  },
+  {
+    "commit": "ce86c49f807d44530d26f4ac6c75f194c98a2c8f",
+    "author": "Javier Calatrava",
+    "email": "javier.calatrava@gi-de.com",
+    "date": "2026-06-05T12:53:42+02:00",
+    "subject": "FIL-1169 Refactoring iOS SDK error handling"
+  },
+  {
+    "commit": "5bdda6d5cfd53d3452726ba2d6c5c5470fe89ace",
+    "author": "Javier Calatrava",
+    "email": "javier.calatrava@gi-de.com",
+    "date": "2026-06-05T11:04:55+02:00",
+    "subject": "FIL-1169 Refactoring iOS SDK error handling"
+  },
+  {
+    "commit": "5565393f6496212c9592f85d8c3b1d43afc71e42",
+    "author": "Klimczak Alexander",
+    "email": "alexander.klimczak@gi-de.com",
+    "date": "2026-06-01T07:14:32Z",
+    "subject": "Merge branch 'feat/FIL-1480-mirror-code' into 'main'"
+  },
+  {
+    "commit": "efa68055a6bc95fbb6ab2ed058618573b187eab8",
+    "author": "Alexander Klimczak",
+    "email": "alexander.klimczak@gi-de.com",
+    "date": "2026-05-21T19:43:24+02:00",
+    "subject": "FIL-1480 add code mirroring"
+  },
+  {
+    "commit": "496941e266614f1658dad91f35fce1cb384d2b39",
+    "author": "Calatrava Javier",
+    "email": "javier.calatrava@gi-de.com",
+    "date": "2026-05-20T16:39:12+02:00",
+    "subject": "Merge branch 'chore/FIL-1833-fix-signing_jca' into 'main'"
+  },
+  {
+    "commit": "fe24b35af16ea62acc28db0994b81e76683fc5ac",
+    "author": "Calatrava Javier",
+    "email": "javier.calatrava@gi-de.com",
+    "date": "2026-05-20T16:39:12+02:00",
+    "subject": "FIL-12345 Chore/fil 1833 fix signing jca"
+  },
+  {
+    "commit": "363d3167a19178b8221fb787ee4ba6349011593b",
+    "author": "Calatrava Javier",
+    "email": "javier.calatrava@gi-de.com",
+    "date": "2026-05-20T16:12:46+02:00",
+    "subject": "Update .gitlab-ci.yml file"
+  },
+  {
+    "commit": "ed0273a18b222e5cd2218a089a315601fdc860e9",
+    "author": "Calatrava Javier",
+    "email": "javier.calatrava@gi-de.com",
+    "date": "2026-05-20T16:08:12+02:00",
+    "subject": "Update .gitlab-ci.yml file"
+  },
+  {
+    "commit": "a54d5504c621c1a291010830c5fa05d284c752d6",
+    "author": "Kolarz Julian",
+    "email": "julian.kolarz@gi-de.com",
+    "date": "2026-05-20T13:11:23Z",
+    "subject": "Update .gitlab-ci.yml file"
+  },
+  {
+    "commit": "20fed7e3c0662387f49b34c1f6d32c0fa2c151d0",
+    "author": "Calatrava Javier",
+    "email": "javier.calatrava@gi-de.com",
+    "date": "2026-05-20T11:55:18+02:00",
+    "subject": "Update .gitlab-ci.yml file"
+  },
+  {
+    "commit": "e1c17d24ca97e2e1c0d1359fb5f92325b0a74315",
+    "author": "Calatrava Javier",
+    "email": "javier.calatrava@gi-de.com",
+    "date": "2026-05-20T11:23:41+02:00",
+    "subject": "Update .gitlab-ci.yml file"
+  },
+  {
+    "commit": "f2237cd31674a50e2dd3ba3a36d6208c6863c2e8",
+    "author": "Calatrava Javier",
+    "email": "javier.calatrava@gi-de.com",
+    "date": "2026-05-20T11:19:40+02:00",
+    "subject": "Update .gitlab-ci.yml file"
+  },
+  {
+    "commit": "2090a915b8886b62e5364787c52cd0c9e2d5433e",
+    "author": "Calatrava Javier",
+    "email": "javier.calatrava@gi-de.com",
+    "date": "2026-05-20T11:06:52+02:00",
+    "subject": "Update .gitlab-ci.yml file"
+  },
+  {
+    "commit": "1c1f097495dc5dc64209a22a428ef42bde40480c",
+    "author": "Kolarz Julian",
+    "email": "julian.kolarz@gi-de.com",
+    "date": "2026-05-20T08:45:49Z",
+    "subject": "Add logging"
+  },
+  {
+    "commit": "8c2777f3b80c22ad42bbb8a2311fc001d549a610",
+    "author": "Kolarz Julian",
+    "email": "julian.kolarz@gi-de.com",
+    "date": "2026-05-20T08:39:15Z",
+    "subject": "Test keychain creation"
+  },
+  {
+    "commit": "7407bbe7d0f70785d02e6795efc25649b2c16c51",
+    "author": "Kolarz Julian",
+    "email": "julian.kolarz@gi-de.com",
+    "date": "2026-05-20T08:32:35Z",
+    "subject": "Fix path to keychain and deactivate release step"
+  },
+  {
+    "commit": "edc17837a371d8842070446858bf0b4251fbe8a4",
+    "author": "Calatrava Javier",
+    "email": "javier.calatrava@gi-de.com",
+    "date": "2026-05-19T18:23:36+02:00",
+    "subject": "Update .gitlab-ci.yml file"
+  },
+  {
+    "commit": "2cb560566c392abe787f390d362ae93b8750b121",
+    "author": "Kolarz Julian",
+    "email": "julian.kolarz@gi-de.com",
+    "date": "2026-05-19T16:11:49Z",
+    "subject": "Add temporary keychain to the search list"
+  },
+  {
+    "commit": "b979ffaf44c1e4c2d7dcfe0ad457585f5d8fc6a4",
+    "author": "Calatrava Javier",
+    "email": "javier.calatrava@gi-de.com",
+    "date": "2026-05-19T17:01:50+02:00",
+    "subject": "Merge branch 'chore/FIL-1658-prepare-release-0.4.3' into 'main'"
+  },
+  {
+    "commit": "d6a4d7be439468704838590160b2868a2a5d4fe5",
+    "author": "Calatrava Javier",
+    "email": "javier.calatrava@gi-de.com",
+    "date": "2026-05-19T17:01:49+02:00",
+    "subject": "FIL-1658 release: prepare 0.4.3"
+  },
+  {
+    "commit": "7d8072fa803af668bf6416e3b7b5f31f2d540f03",
+    "author": "Javier Calatrava",
+    "email": "javier.calatrava@gi-de.com",
+    "date": "2026-05-19T13:02:37+02:00",
+    "subject": "release: prepare 0.4.3"
+  },
+  {
+    "commit": "2c1b253cafb3e27806add6750b25afe2196460f7",
+    "author": "Calatrava Javier",
+    "email": "javier.calatrava@gi-de.com",
+    "date": "2026-05-15T12:43:35+02:00",
+    "subject": "Merge branch 'feat/FIL-1658-Missing-scroll-on-open-transaction-list' into 'main'"
+  },
+  {
+    "commit": "84e568a48a0d26bbeaca76341d0c22d8f20c884c",
+    "author": "Calatrava Javier",
+    "email": "javier.calatrava@gi-de.com",
+    "date": "2026-05-15T12:43:34+02:00",
+    "subject": "FIL-1658 Missing scroll on the open transaction list."
+  },
+  {
+    "commit": "bd55c2ef44e2cbcb6883d1f666ed7b49b4574db1",
+    "author": "Javier Calatrava",
+    "email": "javier.calatrava@gi-de.com",
+    "date": "2026-05-14T14:47:59+02:00",
+    "subject": "FIL-1658 OpenTransaction conforms Identifiable"
+  },
+  {
+    "commit": "4e4102774bb085ace84350cbb20a26a2b3623077",
+    "author": "Javier Calatrava",
+    "email": "javier.calatrava@gi-de.com",
+    "date": "2026-05-08T14:30:33+02:00",
+    "subject": "FIL-1658 Missing scroll on the open transaction list."
+  },
+  {
+    "commit": "0f541a961f470788ee98ff31ddbeae273919f275",
+    "author": "Omar Eduardo Gomez",
+    "email": "gomeomar@gi-de.com",
+    "date": "2026-05-08T11:40:19+02:00",
+    "subject": "TEMP1"
+  },
+  {
+    "commit": "b5639d5cbdd75f3cf299026a8cb11cc426cee660",
+    "author": "Calatrava Javier",
+    "email": "javier.calatrava@gi-de.com",
+    "date": "2026-05-08T10:53:43+02:00",
+    "subject": "Merge branch 'feat/FIL-1652-Replace-error-message' into 'main'"
+  },
+  {
+    "commit": "3cf610c8ce8a8ebcbccca894f807520b2d2f661f",
+    "author": "Calatrava Javier",
+    "email": "javier.calatrava@gi-de.com",
+    "date": "2026-05-08T10:53:43+02:00",
+    "subject": "FIL-1652 Replaced error message text."
+  },
+  {
+    "commit": "80b7aea6f067501b8a5eb1d5ddf7c2ffce41d00e",
+    "author": "Javier Calatrava",
+    "email": "javier.calatrava@gi-de.com",
+    "date": "2026-05-07T13:51:46+02:00",
+    "subject": "FIL-1652. Replaced error message text."
+  },
+  {
+    "commit": "c68b1647c87a63df837362fc5dad37782ff92bb7",
+    "author": "Morales Daniel",
+    "email": "daniel.morales.1@gi-de.com",
+    "date": "2026-05-07T06:56:05Z",
+    "subject": "Merge branch 'feature/FIL-1240-add-codeowners-file-to-our-repos' into 'main'"
+  },
+  {
+    "commit": "676f8169fb2d20a78be84dc00ab371608837312b",
+    "author": "Morales Daniel",
+    "email": "daniel.morales.1@gi-de.com",
+    "date": "2026-05-07T06:56:04Z",
+    "subject": "FIL-1240: Add codeowners file to our repos"
+  },
+  {
+    "commit": "ed99677fa4c4e19bc0532bc6fa1f58309f93d0b3",
+    "author": "Kolarz Julian",
+    "email": "julian.kolarz@gi-de.com",
+    "date": "2026-05-06T14:58:46Z",
+    "subject": "Merge branch 'FIL-1628' into 'main'"
+  },
+  {
+    "commit": "3ba99dfa2451320e57eca65d1332034a936d08e2",
+    "author": "Daniel Morales Cabello",
+    "email": "daniel.morales.1@gi-de.com",
+    "date": "2026-05-06T16:37:31+02:00",
+    "subject": "FIL-1240 added default codeowners file"
+  },
+  {
+    "commit": "e21181d1e3b308e7c219fe6193dad3077c06e690",
+    "author": "Omar Eduardo Gomez",
+    "email": "gomeomar@gi-de.com",
+    "date": "2026-05-06T15:23:57+02:00",
+    "subject": "FIL-1628 Alert replaced by red label to unify with Android"
+  },
+  {
+    "commit": "492428031496c96d4de677f81eae95bf8d363502",
+    "author": "Omar Eduardo Gomez",
+    "email": "gomeomar@gi-de.com",
+    "date": "2026-05-06T16:26:42+02:00",
+    "subject": "FIL-1628 Spacing fix"
+  },
+  {
+    "commit": "443ebe6c0e721eb2d1ea443a02c6ba6656f689ea",
+    "author": "Omar Eduardo Gomez",
+    "email": "gomeomar@gi-de.com",
+    "date": "2026-05-06T15:23:57+02:00",
+    "subject": "FIL-1628 Alert replaced by red label to unify with Android"
+  },
+  {
+    "commit": "9a2ed999cae4bdf216fa96bcc203b2c56fc36b1d",
+    "author": "Calatrava Javier",
+    "email": "javier.calatrava@gi-de.com",
+    "date": "2026-05-06T15:08:34+02:00",
+    "subject": "Merge branch 'revert-c8f6a070' into 'main'"
+  },
+  {
+    "commit": "34d9b3c7d5b3321d1f825b03b1fe6c0f9430bf38",
+    "author": "Calatrava Javier",
+    "email": "javier.calatrava@gi-de.com",
+    "date": "2026-05-06T15:08:33+02:00",
+    "subject": "Reverted support for biometric authentication"
+  },
+  {
+    "commit": "8c9e598c01f961549898636c0476a035e560059c",
+    "author": "Javier Calatrava",
+    "email": "javier.calatrava@gi-de.com",
+    "date": "2026-05-06T14:39:58+02:00",
+    "subject": "Update comments"
+  },
+  {
+    "commit": "08eb248608ea3c26ff08c0ca5b2c4f949a067649",
+    "author": "Javier Calatrava",
+    "email": "javier.calatrava@gi-de.com",
+    "date": "2026-05-06T14:08:19+02:00",
+    "subject": "Reverted support for biometric authentication"
+  },
+  {
+    "commit": "dc8decba81f89366f7dcc371c9c1c38d34da27cd",
+    "author": "Kolarz Julian",
+    "email": "julian.kolarz@gi-de.com",
+    "date": "2026-05-06T10:56:54Z",
+    "subject": "Merge branch 'feature/Improve-tagging' into 'main'"
+  },
+  {
+    "commit": "2894ae21f2504fc4b8f2e6504fd172ba23bdfa01",
+    "author": "Kolarz Julian",
+    "email": "julian.kolarz@gi-de.com",
+    "date": "2026-05-06T10:56:54Z",
+    "subject": "Update release pipeline"
+  },
+  {
+    "commit": "ab4ed0908666b49f7b00322010d4e0e9f54122f3",
+    "author": "Kolarz Julian",
+    "email": "julian.kolarz@gi-de.com",
+    "date": "2026-05-04T13:58:11Z",
+    "subject": "Merge branch 'feature/FIL-1238-biometric-authentication_v2' into 'main'"
+  },
+  {
+    "commit": "dac5a34c71c245b256eb07c7b38cefeb9c9027d1",
+    "author": "Calatrava Javier",
+    "email": "javier.calatrava@gi-de.com",
+    "date": "2026-05-04T15:58:10+02:00",
+    "subject": "Feature/fil 1238 biometric authentication v2"
+  },
+  {
+    "commit": "9383868079bb623e90b4a7720541dcfdf7dafb20",
+    "author": "Kolarz Julian",
+    "email": "julian.kolarz@gi-de.com",
+    "date": "2026-04-24T12:37:48Z",
+    "subject": "Merge branch 'feature/FIL-1199-funding-defunding' into 'main'"
+  },
+  {
+    "commit": "96bb759a412395e5299317d12ce04f2ec19a0742",
+    "author": "Kolarz Julian",
+    "email": "julian.kolarz@gi-de.com",
+    "date": "2026-04-24T12:37:48Z",
+    "subject": "FIL-1199 added funding and defunding"
+  },
+  {
+    "commit": "f84357948062a51d41a18cbe48061d9c7d40727d",
+    "author": "Javier Calatrava",
+    "email": "javier.calatrava@gi-de.com",
+    "date": "2026-04-24T13:05:13+02:00",
+    "subject": "FIL-1238. Adapt sample app to changes related with biometric authentication in offlinesdk"
+  },
+  {
+    "commit": "e69aa3e9ef4858ec1fc94bd1208b0ba84a627b10",
+    "author": "Julian Kolarz",
+    "email": "julian.kolarz@gi-de.com",
+    "date": "2026-04-14T17:40:34+02:00",
+    "subject": "FIL-1199 added button to navigate to  DefundingView"
+  },
+  {
+    "commit": "dedea301a4c59221c68fec41dde85e66a1e88251",
+    "author": "Julian Kolarz",
+    "email": "julian.kolarz@gi-de.com",
+    "date": "2026-04-14T17:36:45+02:00",
+    "subject": "FIL-1199 added funding and defunding view"
+  },
+  {
+    "commit": "aa1271efbcbb2fb87fab9e28d2db9fd8068dbf15",
+    "author": "Julian Kolarz",
+    "email": "julian.kolarz@gi-de.com",
+    "date": "2026-04-10T08:50:03+02:00",
+    "subject": "FIL-1197 increase version"
+  },
+  {
+    "commit": "52e0bbc1cde4300e215cc0fc927ee8ebeddc7581",
+    "author": "Julian Kolarz",
+    "email": "julian.kolarz@gi-de.com",
+    "date": "2026-04-09T15:45:02+02:00",
+    "subject": "FIL-1197 only show outgoing open transactions"
+  },
+  {
+    "commit": "b311d0e7796fc48d59bb2bdfa2f7751589ee60f3",
+    "author": "Julian Kolarz",
+    "email": "julian.kolarz@gi-de.com",
+    "date": "2026-04-09T15:05:24+02:00",
+    "subject": "FIL-1197 added open transaction list view, added retry usecase and cancel usecase of open transactions"
+  },
+  {
+    "commit": "ca956390f22df329e644e88d1075ef4a407de159",
+    "author": "Kolarz Julian",
+    "email": "julian.kolarz@gi-de.com",
+    "date": "2026-03-27T14:33:49Z",
+    "subject": "Merge branch 'feature/improve-release-pipeline' into 'main'"
+  },
+  {
+    "commit": "68cddc8975da1ac15d0a73bb1b04ac8286fe93ac",
+    "author": "Kolarz Julian",
+    "email": "julian.kolarz@gi-de.com",
+    "date": "2026-03-27T14:33:49Z",
+    "subject": "Update the release pipeline that it runs, if a tag is created"
+  },
+  {
+    "commit": "16be2eb42125befecddec7b75af8e3fee4328085",
+    "author": "Kolarz Julian",
+    "email": "julian.kolarz@gi-de.com",
+    "date": "2026-03-27T10:42:22Z",
+    "subject": "Merge branch 'feature/FIL-856-integrityCheck' into 'main'"
+  },
+  {
+    "commit": "587c177682caac3bf112a9fc9c55655464272adf",
+    "author": "Kolarz Julian",
+    "email": "julian.kolarz@gi-de.com",
+    "date": "2026-03-27T10:42:21Z",
+    "subject": "Feature/fil 856 integritycheck + retry payments"
+  },
+  {
+    "commit": "94040c78664b6233794308b4671bcf918e83cf31",
+    "author": "Kolarz Julian",
+    "email": "julian.kolarz@gi-de.com",
+    "date": "2026-03-24T09:49:10Z",
+    "subject": "Merge branch 'bugfix/FIL-1149-iOS-sample-app-defects' into 'main'"
+  },
+  {
+    "commit": "6c8dd2ebc8f8d5278f1325aa62e2ea76258c54b0",
+    "author": "Klimczak Alexander",
+    "email": "alexander.klimczak@gi-de.com",
+    "date": "2026-03-24T09:49:09Z",
+    "subject": "Bugfix/fil 1149 ios sample app defects"
+  },
+  {
+    "commit": "68ae671ffc0368e65ecfa7efa64d14a270201692",
+    "author": "Kolarz Julian",
+    "email": "julian.kolarz@gi-de.com",
+    "date": "2026-03-17T13:55:33Z",
+    "subject": "Merge branch 'feature/FIL-850-initialize-applet-mock' into 'main'"
+  },
+  {
+    "commit": "d8c0f88c85e6479967b98006d107732be9e0300b",
+    "author": "Kolarz Julian",
+    "email": "julian.kolarz@gi-de.com",
+    "date": "2026-03-17T13:55:33Z",
+    "subject": "FIL-850, FIL-925, FIL-859 P2P payment, wallet information, wallet configuration"
+  },
+  {
+    "commit": "e3740920f08135dfc2129992b7d69b5ea33a1249",
+    "author": "Kolarz Julian",
+    "email": "julian.kolarz@gi-de.com",
+    "date": "2026-02-19T12:17:19Z",
+    "subject": "Merge branch 'feature/FIL-205-set-up-sampleapp' into 'main'"
+  },
+  {
+    "commit": "67397a5f9bf61fda02d267258d0013977c85d6eb",
+    "author": "Kolarz Julian",
+    "email": "julian.kolarz@gi-de.com",
+    "date": "2026-02-19T12:17:19Z",
+    "subject": "FIL-205 set up sampleapp"
+  },
+  {
+    "commit": "5653d620525156ece5b0d04dff92907a7ea55cc5",
+    "author": "Administrator",
+    "email": "gitlab_admin_f78124@example.com",
+    "date": "2026-01-09T11:16:54Z",
+    "subject": "Initial commit"
+  }
+]
