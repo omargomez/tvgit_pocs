@@ -34,7 +34,7 @@ public:
 private:
     
     std::vector<BranchEntry> _branchVector;
-    TSortedListBox *branchListBox;
+    TListBox *branchListBox;
     RootRepo _repo;
     std::unique_ptr<BranchDataAccess> _branchDataAccess;
     

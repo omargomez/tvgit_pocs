@@ -1,4 +1,5 @@
 set(COMMON_SOURCES
     ${CMAKE_CURRENT_SOURCE_DIR}/util.cpp
+    ${CMAKE_CURRENT_SOURCE_DIR}/str_collection.cpp
     PARENT_SCOPE
 )

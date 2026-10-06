@@ -7,6 +7,7 @@
 #include "branches_dlg.hpp"
 #include "util.hpp"
 #include "data_access_factory.hpp"
+#include "str_collection.hpp"
 
 BranchesDlg* BranchesDlg::fromBranchRepository(const RootRepo &repo) {
     auto result = new BranchesDlg(repo);
@@ -33,7 +34,7 @@ BranchesDlg::BranchesDlg(const RootRepo &repo) :
 
 void BranchesDlg::setBranches(const std::vector<BranchEntry> branches) {
     _branchVector = std::move(branches);
-    auto list = new TStringCollection(100, 20);
+    auto list = new TStrCollection(100, 20);
     for (auto &item : _branchVector) {
         list->insert( newStr(item.branch) );
     }
@@ -43,7 +44,7 @@ void BranchesDlg::setBranches(const std::vector<BranchEntry> branches) {
 void BranchesDlg::addChildren() {
     TRect viewBounds = getClipRect();
     viewBounds.grow( -1, -1 );
-    branchListBox = new TSortedListBox(viewBounds, 1, 0);
+    branchListBox = new TListBox(viewBounds, 1, 0);
     branchListBox->growMode = gfGrowHiX | gfGrowHiY; // make size follow window's
     branchListBox->options = branchListBox->options | ofFramed;
     insert( branchListBox );
