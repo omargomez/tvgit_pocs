@@ -6,26 +6,29 @@
 
 #include "branches_dlg.hpp"
 #include "util.hpp"
+#include "data_access_factory.hpp"
+
+BranchesDlg* BranchesDlg::fromBranchRepository(const RootRepo &repo) {
+    auto result = new BranchesDlg(repo);
+    result->loadDataFromRepository();
+    return result;
+}
 
 BranchesDlg::BranchesDlg( const TRect& bounds, const char *aTitle, short aNumber ) :
     TWindowInit(&TDialog::initFrame),
     TDialog( bounds, aTitle)
+    // TODO _repo
 {
     addChildren();
 }
 
-BranchesDlg::BranchesDlg() :
+BranchesDlg::BranchesDlg(const RootRepo &repo) :
     TWindowInit(&TDialog::initFrame),
-    TDialog( TRect( 5, 3, 75, 20 ), "Branches")
+    TDialog( TRect( 5, 3, 75, 20 ), "Branches"),
+    _repo(repo),
+    _branchDataAccess(DataAccessFactory::create_branch_data_access(repo))
 {
     addChildren();
-}
-
-BranchesDlg* BranchesDlg::fromBranchRepository() {
-    auto branches = get_branch_list();
-    auto result = new BranchesDlg();
-    result->setBranches(branches);
-    return result;
 }
 
 void BranchesDlg::setBranches(const std::vector<BranchEntry> branches) {

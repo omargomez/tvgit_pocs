@@ -51,6 +51,7 @@ private:
 
     void greetingBox();
     static TSubMenu *repos_menu();
+    void showBranches();
 };
 
 AppModel SimpleApp::model(DataAccessFactory::create_root_repo_data_access());
@@ -88,10 +89,22 @@ void SimpleApp::handleEvent( TEvent& event )
                 greetingBox();
                 clearEvent( event );
                 break;
+            case RepoCommand:
+                showBranches();
+                clearEvent( event );
+                break;
             default:
                 break;
             }
         }
+}
+
+void SimpleApp::showBranches()
+{
+    auto anyRepo = SimpleApp::model.root_repo_data_access.get_root_repos().front();
+    TView *win = validView( BranchesDlg::fromBranchRepository( anyRepo ) );
+    if( win != 0 )
+        deskTop->insert( win );
 }
 
 TMenuBar *SimpleApp::initMenuBar( TRect r )
