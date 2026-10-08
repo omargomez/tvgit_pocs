@@ -27,6 +27,10 @@ public:
     std::string email;
     std::string date;
     std::string subject;
+
+    std::string messageLine() const {
+        return commit.substr(0, 8) + " " + subject;
+    }
 };
 
 CommitItem map_commit_item(const nlohmann::json& value);

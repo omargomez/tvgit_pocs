@@ -28,6 +28,7 @@
 #include <tvision/tv.h>
 
 #include "branches_dlg.hpp"
+#include "commits_dlg.hpp"
 #include "app_model.hpp"
 #include "data_access_factory.hpp"
 
@@ -35,7 +36,8 @@
 const int GreetThemCmd = 100;
 const int RepoCommand = 102;
 
-class SimpleApp : public TApplication, public BranchesDlgDelegate
+class SimpleApp : public TApplication, 
+    public BranchesDlgDelegate
 {
 
 public:
@@ -113,9 +115,14 @@ void SimpleApp::showBranches()
 
 void SimpleApp::onBranchSelected(BranchesDlg *sender, const BranchEntry &branch)
 {
-    // TODO open commits for the selected branch
-    (void)sender;
-    (void)branch;
+    auto win = (CommitsDlg *) validView(new CommitsDlg(branch));
+    // win->delegate = nullptr; // TODO: implement delegate for commits
+    win->loadData();
+    if( win != 0 )
+        {
+        // win->setDelegate( this );
+        deskTop->insert( win );
+        }
 }
 
 TMenuBar *SimpleApp::initMenuBar( TRect r )
