@@ -1,0 +1,218 @@
+[
+  {
+    "date": "2 hours ago",
+    "branch": "main",
+    "author": "Gomez Omar Eduardo",
+    "subject": "Merge branch 'fix/FIL-3784-usb-mode-fix' into 'main'"
+  },
+  {
+    "date": "2 hours ago",
+    "branch": "fix/FIL-3784-usb-mode-fix",
+    "author": "Omar Eduardo Gomez",
+    "subject": "FIL-3784 Select mode only when successful"
+  },
+  {
+    "date": "3 days ago",
+    "branch": "fix/FIL-3756-wallet-config-list",
+    "author": "Omar Eduardo Gomez",
+    "subject": "FIL-3756 Config picker order"
+  },
+  {
+    "date": "3 days ago",
+    "branch": "sandbox/start-modes",
+    "author": "Omar Eduardo Gomez",
+    "subject": "TEMP1"
+  },
+  {
+    "date": "4 days ago",
+    "branch": "feat/FIL-3504-custom-logger-final-integration",
+    "author": "Omar Eduardo Gomez",
+    "subject": "FIL-3504 Clean up refactor"
+  },
+  {
+    "date": "11 days ago",
+    "branch": "feat/FIL-3504-integration-prerelease",
+    "author": "Omar Eduardo Gomez",
+    "subject": "FIL-3504-Logger-integration"
+  },
+  {
+    "date": "11 days ago",
+    "branch": "feat/FIL-3504-custom-logger-sdk-update",
+    "author": "Omar Eduardo Gomez",
+    "subject": "FIL-3504 Crash manager to log stack traces when log's ready"
+  },
+  {
+    "date": "13 days ago",
+    "branch": "feat/FIL-3504-coredata-impl",
+    "author": "Omar Eduardo Gomez",
+    "subject": "FIL-3504 File rolling simple implementation"
+  },
+  {
+    "date": "13 days ago",
+    "branch": "feat/FIL-3504-crash-manager",
+    "author": "Omar Eduardo Gomez",
+    "subject": "FIL-3504 Crash manager to log stack traces when log's ready"
+  },
+  {
+    "date": "2 weeks ago",
+    "branch": "feat/FIL-3504-Part-I-Logger-class-added",
+    "author": "Omar Eduardo Gomez",
+    "subject": "FIL-3504-Logger-class-added"
+  },
+  {
+    "date": "3 weeks ago",
+    "branch": "feat/FIL-0000-rel-0614-integration",
+    "author": "Omar Eduardo Gomez",
+    "subject": "sdk 0.6.14 integration"
+  },
+  {
+    "date": "3 weeks ago",
+    "branch": "feat/FIL-2264-cancel-sample-app-II",
+    "author": "Calatrava Javier",
+    "subject": "Merge branch 'feat/FIL-2263-P2PPaymentRetry' into 'main'"
+  },
+  {
+    "date": "4 weeks ago",
+    "branch": "feat/FIL-2264-cancel-sample-app",
+    "author": "Omar Eduardo Gomez",
+    "subject": "TEMP1"
+  },
+  {
+    "date": "4 weeks ago",
+    "branch": "fix/FIL-3363-defund-error-II",
+    "author": "Gomez Omar Eduardo",
+    "subject": "Merge branch 'fix/FIL-3363-defund-error-II' into 'main'"
+  },
+  {
+    "date": "4 weeks ago",
+    "branch": "sandbox/USB-ERROR",
+    "author": "Omar Eduardo Gomez",
+    "subject": "TEMP1"
+  },
+  {
+    "date": "4 weeks ago",
+    "branch": "fix/FIL-3363-defund-error",
+    "author": "Gomez Omar Eduardo",
+    "subject": "Merge branch 'fix/FIL-3354-long-delay' into 'main'"
+  },
+  {
+    "date": "4 weeks ago",
+    "branch": "fix/FIL-3354-long-delay",
+    "author": "Omar Eduardo Gomez",
+    "subject": "FIL-3354 Delay added, picker disabled while waiting connection"
+  },
+  {
+    "date": "5 weeks ago",
+    "branch": "fix/FIL-3363-defund-error-III",
+    "author": "Omar Eduardo Gomez",
+    "subject": "PR feedback"
+  },
+  {
+    "date": "5 weeks ago",
+    "branch": "feat/FIL-3363-defund-error",
+    "author": "Omar Eduardo Gomez",
+    "subject": "TEMP1"
+  },
+  {
+    "date": "5 weeks ago",
+    "branch": "feat/FIL-3363-defind-error-II",
+    "author": "Omar Eduardo Gomez",
+    "subject": "FIL-3363 New safe UI Button"
+  },
+  {
+    "date": "6 weeks ago",
+    "branch": "fix/FIL-2826-error-message",
+    "author": "Omar Eduardo Gomez",
+    "subject": "FIL-2826 Error message handling"
+  },
+  {
+    "date": "7 weeks ago",
+    "branch": "fix/FIL-2806-reset-message-fix",
+    "author": "Omar Eduardo Gomez",
+    "subject": "FIL-2806 Status cleaned on view appear"
+  },
+  {
+    "date": "8 weeks ago",
+    "branch": "FIL-1739-sample-app-reset",
+    "author": "Omar Eduardo Gomez",
+    "subject": "MR Feedback"
+  },
+  {
+    "date": "9 weeks ago",
+    "branch": "feat/FIL-2247-AdaptGetResponseForSIMCard_v2",
+    "author": "Javier Calatrava",
+    "subject": "Fix error message."
+  },
+  {
+    "date": "9 weeks ago",
+    "branch": "feat/FIL-1742-integrity-check",
+    "author": "Omar Eduardo Gomez",
+    "subject": "FIL-1742 Integrity check added for Simulator adapter"
+  },
+  {
+    "date": "2 months ago",
+    "branch": "feat/FIL-2357-tag-testing",
+    "author": "Omar Eduardo Gomez",
+    "subject": "FIL-2357 accessibilityIdentifier added"
+  },
+  {
+    "date": "2 months ago",
+    "branch": "feat/FIL-1778-defunding-sample-app",
+    "author": "Omar Eduardo Gomez",
+    "subject": "QA feedback"
+  },
+  {
+    "date": "2 months ago",
+    "branch": "sandbox/P2P",
+    "author": "Omar Eduardo Gomez",
+    "subject": "TEMP1"
+  },
+  {
+    "date": "3 months ago",
+    "branch": "feat/FIL-2211-UI-android-UI-alignment",
+    "author": "Omar Eduardo Gomez",
+    "subject": "QA Feedback"
+  },
+  {
+    "date": "3 months ago",
+    "branch": "feat/FIL-0000-sdk_sync",
+    "author": "Omar Eduardo Gomez",
+    "subject": "FIL-0000 SDK sync"
+  },
+  {
+    "date": "3 months ago",
+    "branch": "feat/FIL-2230-disable_simulator_buttons",
+    "author": "Omar Eduardo Gomez",
+    "subject": "SDK update"
+  },
+  {
+    "date": "3 months ago",
+    "branch": "feat/FIL-1708-wallet_selection_II",
+    "author": "Omar Eduardo Gomez",
+    "subject": "MR feedback"
+  },
+  {
+    "date": "3 months ago",
+    "branch": "feat/FIL-1708_wallet_selection",
+    "author": "Omar Eduardo Gomez",
+    "subject": "FIL-1708 Wallet configuration feature"
+  },
+  {
+    "date": "4 months ago",
+    "branch": "feat/FIL-1635-sdk-sync",
+    "author": "Omar Eduardo Gomez",
+    "subject": "FIL-1635 Sdk sync"
+  },
+  {
+    "date": "5 months ago",
+    "branch": "bugfix/FIL-1658-fixing-transactions-list",
+    "author": "Omar Eduardo Gomez",
+    "subject": "TEMP1"
+  },
+  {
+    "date": "5 months ago",
+    "branch": "FIL-1628",
+    "author": "Omar Eduardo Gomez",
+    "subject": "FIL-1628 Spacing fix"
+  }
+]

@@ -39,8 +39,6 @@
 #include "commit.hpp"
 
 // Libgit
-#include <git2.h>
-#include <git2pp.h>
 
 const int GreetThemCmd = 100;
 const int myEntryCommand = 101;

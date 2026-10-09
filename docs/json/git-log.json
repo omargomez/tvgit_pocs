@@ -1,0 +1,951 @@
+[
+  {
+    "commit": "afd39738fbf2a35f360d650cd3275c140190b550",
+    "author": "Omar Eduardo Gomez",
+    "author_email": "gomeomar@gi-de.com",
+    "date": "Mon Sep 21 15:40:19 2026 +0200",
+    "message": "FIL-3784 Select mode only when successful",
+    "epoch": 1789998019,
+    "epoch_utc": null
+  },
+  {
+    "commit": "ab7236fa0279df6251bfdd920541eab9d19d14cd",
+    "merge": "7dbad50 7a63ddc",
+    "author": "Gomez Omar Eduardo",
+    "author_email": "omareduardo.gomez@gi-de.com",
+    "date": "Fri Sep 18 12:40:28 2026 +0000",
+    "message": "Merge branch 'fix/FIL-3756-wallet-config-list' into 'main'\n\nFIL-3756 Config picker order\n\nSee merge request mobile/ios-skyline-sampleapp!63",
+    "epoch": 1789728028,
+    "epoch_utc": 1789735228
+  },
+  {
+    "commit": "7a63ddc092bcfd5dcb72bb9c6367dab77c319baf",
+    "author": "Omar Eduardo Gomez",
+    "author_email": "gomeomar@gi-de.com",
+    "date": "Fri Sep 18 14:20:45 2026 +0200",
+    "message": "FIL-3756 Config picker order",
+    "epoch": 1789734045,
+    "epoch_utc": null
+  },
+  {
+    "commit": "7dbad500b9f45056afde47a972f2e06b8b37cb21",
+    "merge": "8f72200 e531d06",
+    "author": "Gomez Omar Eduardo",
+    "author_email": "omareduardo.gomez@gi-de.com",
+    "date": "Thu Sep 17 08:47:21 2026 +0000",
+    "message": "Merge branch 'feat/FIL-3504-custom-logger-final-integration' into 'main'\n\nFIL-3504 \"Feat/ custom logger final integration\"\n\nSee merge request mobile/ios-skyline-sampleapp!61",
+    "epoch": 1789627641,
+    "epoch_utc": 1789634841
+  },
+  {
+    "commit": "e531d06ec2ab297db6070e654aec9312e37921aa",
+    "author": "Gomez Omar Eduardo",
+    "author_email": "omareduardo.gomez@gi-de.com",
+    "date": "Thu Sep 17 08:47:20 2026 +0000",
+    "message": "FIL-3504 \"Feat/ custom logger final integration\"",
+    "epoch": 1789627640,
+    "epoch_utc": 1789634840
+  },
+  {
+    "commit": "8f722000e2a22acc784245eb3a6f1716e7c4e00a",
+    "merge": "b525a9c 946f31c",
+    "author": "Calatrava Javier",
+    "author_email": "javier.calatrava@gi-de.com",
+    "date": "Wed Sep 16 18:08:47 2026 +0200",
+    "message": "Merge branch 'feat/FIL-3428-CloudSimulatorInterface' into 'main'\n\nFIL-3528 Cloud Simulator on sample app.\n\nCloses FIL-3428\n\nSee merge request mobile/ios-skyline-sampleapp!62",
+    "epoch": 1789574927,
+    "epoch_utc": null
+  },
+  {
+    "commit": "946f31c96b543c45cf320347e1eb2423771b70ec",
+    "author": "Javier Calatrava",
+    "author_email": "javier.calatrava@gi-de.com",
+    "date": "Wed Sep 16 17:47:31 2026 +0200",
+    "message": "FIL-3528 Cloud Simulator on sample app.",
+    "epoch": 1789573651,
+    "epoch_utc": null
+  },
+  {
+    "commit": "b525a9cd32957f917adf670a09906cc962e02d02",
+    "merge": "cea4e1c 6dac36b",
+    "author": "Gomez Omar Eduardo",
+    "author_email": "omareduardo.gomez@gi-de.com",
+    "date": "Wed Sep 16 08:23:42 2026 +0000",
+    "message": "Merge branch 'feat/FIL-3504-coredata-impl' into 'main'\n\nFIL-3504 Logger facilty backd up by Core data\n\nSee merge request mobile/ios-skyline-sampleapp!57",
+    "epoch": 1789539822,
+    "epoch_utc": 1789547022
+  },
+  {
+    "commit": "6dac36bd5cea48e4192e350e5ee02b76a8aed47d",
+    "author": "Gomez Omar Eduardo",
+    "author_email": "omareduardo.gomez@gi-de.com",
+    "date": "Wed Sep 16 08:23:41 2026 +0000",
+    "message": "FIL-3504 Logger facilty backd up by Core data",
+    "epoch": 1789539821,
+    "epoch_utc": 1789547021
+  },
+  {
+    "commit": "cea4e1c1c346700b6e4ef31e95bc63cedd4d07cc",
+    "merge": "0746200 13c577e",
+    "author": "Calatrava Javier",
+    "author_email": "javier.calatrava@gi-de.com",
+    "date": "Mon Sep 7 16:31:34 2026 +0200",
+    "message": "Merge branch 'fix/FIL-3528-AmmendErrorMessage' into 'main'\n\nFIL-3528 Ammend error messages.\n\nCloses FIL-3528\n\nSee merge request mobile/ios-skyline-sampleapp!55",
+    "epoch": 1788791494,
+    "epoch_utc": null
+  },
+  {
+    "commit": "13c577e6a6d08e094dab9c0386c1189a7daed5d3",
+    "author": "Calatrava Javier",
+    "author_email": "javier.calatrava@gi-de.com",
+    "date": "Mon Sep 7 16:31:33 2026 +0200",
+    "message": "FIL-3528 Ammend error messages.",
+    "epoch": 1788791493,
+    "epoch_utc": null
+  },
+  {
+    "commit": "0746200735cd3a9f06ddd9e8fb7c1e23850424f3",
+    "merge": "f2f9eab e4852e5",
+    "author": "Kolarz Julian",
+    "author_email": "julian.kolarz@gi-de.com",
+    "date": "Thu Sep 3 14:55:34 2026 +0000",
+    "message": "Merge branch 'fix/FIL-3525-fix-errors' into 'main'\n\nFIL-3525 fix errors\n\nCloses FIL-3525\n\nSee merge request mobile/ios-skyline-sampleapp!52",
+    "epoch": 1788440134,
+    "epoch_utc": 1788447334
+  },
+  {
+    "commit": "e4852e5f1cf4c1bb54f780dc2278816d4f3659af",
+    "author": "Kolarz Julian",
+    "author_email": "julian.kolarz@gi-de.com",
+    "date": "Thu Sep 3 14:55:33 2026 +0000",
+    "message": "FIL-3525 fix errors",
+    "epoch": 1788440133,
+    "epoch_utc": 1788447333
+  },
+  {
+    "commit": "f2f9eabff98d0cf94f263c568db82f869f4c5428",
+    "merge": "43ffc0f 151e638",
+    "author": "Calatrava Javier",
+    "author_email": "javier.calatrava@gi-de.com",
+    "date": "Wed Sep 2 15:24:31 2026 +0200",
+    "message": "Merge branch 'feat/FIL-3528-AddressErrorMessages' into 'main'\n\nFIL-3528 Align error messages with Android and create an integration test target\n\nCloses FIL-3528\n\nSee merge request mobile/ios-skyline-sampleapp!51",
+    "epoch": 1788355471,
+    "epoch_utc": null
+  },
+  {
+    "commit": "151e6386848c86f129420faf4fabeb96a7607f63",
+    "author": "Javier Calatrava",
+    "author_email": "javier.calatrava@gi-de.com",
+    "date": "Wed Sep 2 11:56:42 2026 +0200",
+    "message": "FIL-3528 Align error messages with Android and create an integration test target",
+    "epoch": 1788343002,
+    "epoch_utc": null
+  },
+  {
+    "commit": "43ffc0fa73dbe2a657cccbfa2969f37ac59defc8",
+    "merge": "730b17b 16f76b2",
+    "author": "Calatrava Javier",
+    "author_email": "javier.calatrava@gi-de.com",
+    "date": "Mon Aug 31 14:05:58 2026 +0200",
+    "message": "Merge branch 'feat/FIL-3527-EnableWalletInfoForUSB' into 'main'\n\nFIL-3527 Enable Wallet Information for Simulator and USB-C Card reader interface\n\nCloses FIL-3527\n\nSee merge request mobile/ios-skyline-sampleapp!50",
+    "epoch": 1788177958,
+    "epoch_utc": null
+  },
+  {
+    "commit": "16f76b27f7cf5a62a838f35b05fd1b7fb552dfdd",
+    "author": "Javier Calatrava",
+    "author_email": "javier.calatrava@gi-de.com",
+    "date": "Mon Aug 31 13:59:01 2026 +0200",
+    "message": "FIL-3527 Enable Wallet Information for Simulator and USB-C Card reader interface",
+    "epoch": 1788177541,
+    "epoch_utc": null
+  },
+  {
+    "commit": "730b17b6026e50e4bace8dad1997ca709563aba4",
+    "merge": "0f82219 0129aed",
+    "author": "Calatrava Javier",
+    "author_email": "javier.calatrava@gi-de.com",
+    "date": "Fri Aug 28 15:24:04 2026 +0200",
+    "message": "Merge branch 'feat/FIL-2263-P2PPaymentRetry' into 'main'\n\nFIL-2263 P2P Retry payment implementation\n\nCloses FIL-2263\n\nSee merge request mobile/ios-skyline-sampleapp!49",
+    "epoch": 1787923444,
+    "epoch_utc": null
+  },
+  {
+    "commit": "0129aedd7e5ca9fc60b2074f1816d1e13bf1fc27",
+    "author": "Calatrava Javier",
+    "author_email": "javier.calatrava@gi-de.com",
+    "date": "Fri Aug 28 15:24:03 2026 +0200",
+    "message": "FIL-2263 P2P Retry payment implementation",
+    "epoch": 1787923443,
+    "epoch_utc": null
+  },
+  {
+    "commit": "0f8221968a716e4878b064fb24f84a8a46b1a0c2",
+    "merge": "5b04175 8a7b5c9",
+    "author": "Kolarz Julian",
+    "author_email": "julian.kolarz@gi-de.com",
+    "date": "Wed Aug 26 12:46:49 2026 +0000",
+    "message": "Merge branch 'fix/FIL-3451-fix-payment-bugs' into 'main'\n\nFIL-3451 Update SDK that fixes FIL-3451 and FIL-3452\n\nCloses FIL-3451\n\nSee merge request mobile/ios-skyline-sampleapp!48",
+    "epoch": 1787741209,
+    "epoch_utc": 1787748409
+  },
+  {
+    "commit": "8a7b5c97a8a23330f12657a57374a3f5a7d1c631",
+    "author": "Kolarz Julian",
+    "author_email": "julian.kolarz@gi-de.com",
+    "date": "Wed Aug 26 12:46:48 2026 +0000",
+    "message": "FIL-3451 Update SDK that fixes FIL-3451 and FIL-3452",
+    "epoch": 1787741208,
+    "epoch_utc": 1787748408
+  },
+  {
+    "commit": "5b0417559a1b003c477726a3c75939a255771423",
+    "merge": "8a510ed d2ce84c",
+    "author": "Gomez Omar Eduardo",
+    "author_email": "omareduardo.gomez@gi-de.com",
+    "date": "Wed Aug 26 10:02:06 2026 +0000",
+    "message": "Merge branch 'fix/FIL-3363-defund-error-II' into 'main'\n\nFIL-3363 new sdk and usb adapter\n\nCloses FIL-3363\n\nSee merge request mobile/ios-skyline-sampleapp!47",
+    "epoch": 1787731326,
+    "epoch_utc": 1787738526
+  },
+  {
+    "commit": "d2ce84c1d6011e7119fb813af6794e6d4e14fd2a",
+    "author": "Omar Eduardo Gomez",
+    "author_email": "gomeomar@gi-de.com",
+    "date": "Wed Aug 26 10:50:18 2026 +0200",
+    "message": "FIL-3363 new sdk and usb adapter",
+    "epoch": 1787734218,
+    "epoch_utc": null
+  },
+  {
+    "commit": "8a510ed9d911b8890f043e3a80b1d4e10767b3a1",
+    "merge": "e349918 cb304c8",
+    "author": "Gomez Omar Eduardo",
+    "author_email": "omareduardo.gomez@gi-de.com",
+    "date": "Fri Aug 21 11:23:18 2026 +0000",
+    "message": "Merge branch 'fix/FIL-3354-long-delay' into 'main'\n\nFIL-3354 Delay added, picker disabled while waiting connection\n\nSee merge request mobile/ios-skyline-sampleapp!45",
+    "epoch": 1787304198,
+    "epoch_utc": 1787311398
+  },
+  {
+    "commit": "cb304c866dc175d047f6f0bca96c7c32ecf5fad2",
+    "author": "Omar Eduardo Gomez",
+    "author_email": "gomeomar@gi-de.com",
+    "date": "Fri Aug 21 12:23:36 2026 +0200",
+    "message": "FIL-3354 Delay added, picker disabled while waiting connection",
+    "epoch": 1787307816,
+    "epoch_utc": null
+  },
+  {
+    "commit": "e3499187e5e6e16af932cde511a905fbd37c3b19",
+    "merge": "e661680 6144aca",
+    "author": "Gomez Omar Eduardo",
+    "author_email": "omareduardo.gomez@gi-de.com",
+    "date": "Thu Aug 20 12:57:04 2026 +0000",
+    "message": "Merge branch 'fix/FIL-3363-defund-error-III' into 'main'\n\nFIL-3363 . Returning same wallet instance\n\nSee merge request mobile/ios-skyline-sampleapp!44",
+    "epoch": 1787223424,
+    "epoch_utc": 1787230624
+  },
+  {
+    "commit": "6144aca603fed525afffe441f2b6c36b96e840f0",
+    "author": "Gomez Omar Eduardo",
+    "author_email": "omareduardo.gomez@gi-de.com",
+    "date": "Thu Aug 20 12:57:04 2026 +0000",
+    "message": "FIL-3363 . Returning same wallet instance",
+    "epoch": 1787223424,
+    "epoch_utc": 1787230624
+  },
+  {
+    "commit": "e6616808ee0201cb8f2ef91aec572d1f3e80aacd",
+    "merge": "f5685fe c51e879",
+    "author": "Calatrava Javier",
+    "author_email": "javier.calatrava@gi-de.com",
+    "date": "Wed Aug 19 16:43:50 2026 +0200",
+    "message": "Merge branch 'feat/FIL-2902-p2p' into 'main'\n\nFIL-2902 p2p Happy path\n\nCloses FIL-2902\n\nSee merge request mobile/ios-skyline-sampleapp!43",
+    "epoch": 1787150630,
+    "epoch_utc": null
+  },
+  {
+    "commit": "c51e87995a797b9ef7f6ec7de8ba65d4d1543a8d",
+    "author": "Calatrava Javier",
+    "author_email": "javier.calatrava@gi-de.com",
+    "date": "Wed Aug 19 16:43:50 2026 +0200",
+    "message": "FIL-2902 p2p Happy path",
+    "epoch": 1787150630,
+    "epoch_utc": null
+  },
+  {
+    "commit": "f5685feb43aa19e327cd91dcf16cff762bd829c9",
+    "merge": "078b49d 550fa00",
+    "author": "Calatrava Javier",
+    "author_email": "javier.calatrava@gi-de.com",
+    "date": "Tue Aug 11 09:50:44 2026 +0200",
+    "message": "Merge branch 'feat/FIL-2807-UpdateToOfflineSdk0-6-6' into 'main'\n\nFIL-2807 Update to OfflineSdk 0.6.6\n\nCloses FIL-2807\n\nSee merge request mobile/ios-skyline-sampleapp!41",
+    "epoch": 1786434644,
+    "epoch_utc": null
+  },
+  {
+    "commit": "550fa00262b74e85435d95ff4542b84014a08462",
+    "author": "Calatrava Javier",
+    "author_email": "javier.calatrava@gi-de.com",
+    "date": "Tue Aug 11 09:50:44 2026 +0200",
+    "message": "FIL-2807 Update to OfflineSdk 0.6.6",
+    "epoch": 1786434644,
+    "epoch_utc": null
+  },
+  {
+    "commit": "078b49d705d2fbf11373facd1ea73ed05a25f90c",
+    "merge": "f3cea12 598b850",
+    "author": "Gomez Omar Eduardo",
+    "author_email": "omareduardo.gomez@gi-de.com",
+    "date": "Mon Aug 10 09:28:45 2026 +0000",
+    "message": "Merge branch 'fix/FIL-2826-error-message' into 'main'\n\nFIL-2826 Error message handling\n\nCloses FIL-2826\n\nSee merge request mobile/ios-skyline-sampleapp!40",
+    "epoch": 1786346925,
+    "epoch_utc": 1786354125
+  },
+  {
+    "commit": "598b850da0ed9d3f7ab094ea7e343cdf537a7770",
+    "author": "Omar Eduardo Gomez",
+    "author_email": "gomeomar@gi-de.com",
+    "date": "Fri Aug 7 10:52:20 2026 +0200",
+    "message": "FIL-2826 Error message handling",
+    "epoch": 1786092740,
+    "epoch_utc": null
+  },
+  {
+    "commit": "f3cea12675997be3da3e920d8d4ab23077c67700",
+    "merge": "c6a000f 0a862ab",
+    "author": "Gomez Omar Eduardo",
+    "author_email": "omareduardo.gomez@gi-de.com",
+    "date": "Thu Aug 6 11:47:08 2026 +0000",
+    "message": "Merge branch 'fix/FIL-2806-reset-message-fix' into 'main'\n\nFIL-2806 Status cleaned on view appear\n\nCloses FIL-2806\n\nSee merge request mobile/ios-skyline-sampleapp!39",
+    "epoch": 1786009628,
+    "epoch_utc": 1786016828
+  },
+  {
+    "commit": "0a862ab258ffa1aeeafaca3b62ae027fbbf1a7c6",
+    "author": "Omar Eduardo Gomez",
+    "author_email": "gomeomar@gi-de.com",
+    "date": "Wed Aug 5 10:37:02 2026 +0200",
+    "message": "FIL-2806 Status cleaned on view appear",
+    "epoch": 1785919022,
+    "epoch_utc": null
+  },
+  {
+    "commit": "c6a000f345796627d7a509ec37d0abcc066394f0",
+    "merge": "d0d8303 d865104",
+    "author": "Calatrava Javier",
+    "author_email": "javier.calatrava@gi-de.com",
+    "date": "Mon Aug 3 12:28:34 2026 +0200",
+    "message": "Merge branch 'feat/FIL-2526-SupportUBCCardReaderAdapter' into 'main'\n\nFIl-2526 Integrate offlineSdk 0.6.5\n\nCloses FIL-2526\n\nSee merge request mobile/ios-skyline-sampleapp!38",
+    "epoch": 1785752914,
+    "epoch_utc": null
+  },
+  {
+    "commit": "d86510482791a647cc7c63a81071514b093b86e8",
+    "author": "Calatrava Javier",
+    "author_email": "javier.calatrava@gi-de.com",
+    "date": "Mon Aug 3 12:28:33 2026 +0200",
+    "message": "FIl-2526 Integrate offlineSdk 0.6.5",
+    "epoch": 1785752913,
+    "epoch_utc": null
+  },
+  {
+    "commit": "d0d8303e890f6651a8add5cbc98910c86a861833",
+    "merge": "5a7440a 9cba9c3",
+    "author": "Calatrava Javier",
+    "author_email": "javier.calatrava@gi-de.com",
+    "date": "Fri Jul 31 12:53:48 2026 +0200",
+    "message": "Merge branch 'feat/FIL-2526-SupportUBCCardReaderAdapter' into 'main'\n\nFIL-2526 Integrate OfflineSDK SPM version 0.6.5\n\nCloses FIL-2526\n\nSee merge request mobile/ios-skyline-sampleapp!37",
+    "epoch": 1785495228,
+    "epoch_utc": null
+  },
+  {
+    "commit": "9cba9c3b5b5b206c23206f9cc279998f25556395",
+    "author": "Calatrava Javier",
+    "author_email": "javier.calatrava@gi-de.com",
+    "date": "Fri Jul 31 12:53:48 2026 +0200",
+    "message": "FIL-2526 Integrate OfflineSDK SPM version 0.6.5",
+    "epoch": 1785495228,
+    "epoch_utc": null
+  },
+  {
+    "commit": "5a7440a07b9d7ebdf5c2a0314271383b23c6dac2",
+    "merge": "18d6889 21af148",
+    "author": "Gomez Omar Eduardo",
+    "author_email": "omareduardo.gomez@gi-de.com",
+    "date": "Fri Jul 31 07:32:42 2026 +0000",
+    "message": "Merge branch 'FIL-1739-sample-app-reset' into 'main'\n\nFIL-1739 Reset operation added\n\nSee merge request mobile/ios-skyline-sampleapp!36",
+    "epoch": 1785475962,
+    "epoch_utc": 1785483162
+  },
+  {
+    "commit": "21af148b90410a68f1e2db0dbea9268a5df45247",
+    "author": "Gomez Omar Eduardo",
+    "author_email": "omareduardo.gomez@gi-de.com",
+    "date": "Fri Jul 31 07:32:42 2026 +0000",
+    "message": "FIL-1739 Reset operation added",
+    "epoch": 1785475962,
+    "epoch_utc": 1785483162
+  },
+  {
+    "commit": "18d68897667279e12229fa0dd89a813fa98c01aa",
+    "merge": "fabc10e 8900144",
+    "author": "Calatrava Javier",
+    "author_email": "javier.calatrava@gi-de.com",
+    "date": "Fri Jul 24 13:12:47 2026 +0200",
+    "message": "Merge branch 'feat/FIL-2522-ReleaseAlfaIdea-0-6-4' into 'main'\n\nFIL-2522 Update Offline skd version to 0.6.4-rc2\n\nCloses FIL-2522\n\nSee merge request mobile/ios-skyline-sampleapp!35",
+    "epoch": 1784891567,
+    "epoch_utc": null
+  },
+  {
+    "commit": "89001445f42c9a4ce9c0285528fa314560f91bde",
+    "author": "Calatrava Javier",
+    "author_email": "javier.calatrava@gi-de.com",
+    "date": "Fri Jul 24 13:12:46 2026 +0200",
+    "message": "FIL-2522 Update Offline skd version to 0.6.4-rc2",
+    "epoch": 1784891566,
+    "epoch_utc": null
+  },
+  {
+    "commit": "fabc10efdb2bc2177a66ead2ec99ec9a0b61760a",
+    "merge": "4295acf 88c3c73",
+    "author": "Gomez Omar Eduardo",
+    "author_email": "omareduardo.gomez@gi-de.com",
+    "date": "Fri Jul 17 11:14:38 2026 +0000",
+    "message": "Merge branch 'feat/FIL-1742-integrity-check' into 'main'\n\nFIL-1742 Integrity check added for Simulator adapter\n\nCloses FIL-1742\n\nSee merge request mobile/ios-skyline-sampleapp!34",
+    "epoch": 1784279678,
+    "epoch_utc": 1784286878
+  },
+  {
+    "commit": "88c3c73ccb1e9cab687b786fa27475174d2036ec",
+    "author": "Omar Eduardo Gomez",
+    "author_email": "gomeomar@gi-de.com",
+    "date": "Wed Jul 15 16:19:09 2026 +0200",
+    "message": "FIL-1742 Integrity check added for Simulator adapter",
+    "epoch": 1784125149,
+    "epoch_utc": null
+  },
+  {
+    "commit": "4295acf0bd0f55e63c0feb084ccd592addb73eca",
+    "merge": "65e7bf9 636ed30",
+    "author": "Gomez Omar Eduardo",
+    "author_email": "omareduardo.gomez@gi-de.com",
+    "date": "Tue Jul 14 09:24:39 2026 +0000",
+    "message": "Merge branch 'feat/FIL-2357-tag-testing' into 'main'\n\nFIL-2357 accessibilityIdentifier added\n\nCloses FIL-2357\n\nSee merge request mobile/ios-skyline-sampleapp!33",
+    "epoch": 1784013879,
+    "epoch_utc": 1784021079
+  },
+  {
+    "commit": "636ed302ec8d51c4a887c5516db6be9f021e7183",
+    "author": "Omar Eduardo Gomez",
+    "author_email": "gomeomar@gi-de.com",
+    "date": "Mon Jul 13 14:24:22 2026 +0200",
+    "message": "FIL-2357 accessibilityIdentifier added",
+    "epoch": 1783945462,
+    "epoch_utc": null
+  },
+  {
+    "commit": "65e7bf93e4ad9e492377d04eb0586f1b0cc56e4b",
+    "merge": "1650081 ff75667",
+    "author": "Gomez Omar Eduardo",
+    "author_email": "omareduardo.gomez@gi-de.com",
+    "date": "Mon Jul 13 07:41:33 2026 +0000",
+    "message": "Merge branch 'feat/FIL-1778-defunding-sample-app' into 'main'\n\nFIL-1778 Enabling simulator defunding\n\nCloses FIL-1778\n\nSee merge request mobile/ios-skyline-sampleapp!32",
+    "epoch": 1783921293,
+    "epoch_utc": 1783928493
+  },
+  {
+    "commit": "ff75667ad72a7c2c9728747647ecfcf666d0c788",
+    "author": "Gomez Omar Eduardo",
+    "author_email": "omareduardo.gomez@gi-de.com",
+    "date": "Mon Jul 13 07:41:33 2026 +0000",
+    "message": "FIL-1778 Enabling simulator defunding",
+    "epoch": 1783921293,
+    "epoch_utc": 1783928493
+  },
+  {
+    "commit": "1650081f96ac947defa3857f25968f0cf8adcc11",
+    "merge": "eac1f8e b1b78f5",
+    "author": "Gomez Omar Eduardo",
+    "author_email": "omareduardo.gomez@gi-de.com",
+    "date": "Wed Jul 8 14:56:30 2026 +0000",
+    "message": "Merge branch 'feat/FIL-2211-UI-android-UI-alignment' into 'main'\n\nFIL-2211 QA Feedback\n\nCloses FIL-2211\n\nSee merge request mobile/ios-skyline-sampleapp!31",
+    "epoch": 1783515390,
+    "epoch_utc": 1783522590
+  },
+  {
+    "commit": "b1b78f545dabb079cd23dd8a1b441f4a322cddac",
+    "author": "Gomez Omar Eduardo",
+    "author_email": "omareduardo.gomez@gi-de.com",
+    "date": "Wed Jul 8 14:56:30 2026 +0000",
+    "message": "FIL-2211 QA Feedback",
+    "epoch": 1783515390,
+    "epoch_utc": 1783522590
+  },
+  {
+    "commit": "eac1f8e63d09befd0530ed4ba04014a192a3989d",
+    "merge": "f17be4a 76f0244",
+    "author": "Gomez Omar Eduardo",
+    "author_email": "omareduardo.gomez@gi-de.com",
+    "date": "Tue Jul 7 08:00:27 2026 +0000",
+    "message": "Merge branch 'feat/FIL-2211-UI-android-UI-alignment' into 'main'\n\nFIL-2211 UI Android alignment\n\nCloses FIL-2211\n\nSee merge request mobile/ios-skyline-sampleapp!30",
+    "epoch": 1783404027,
+    "epoch_utc": 1783411227
+  },
+  {
+    "commit": "76f02440c8d6b7a757f2a8331c30f4c1c39140b4",
+    "author": "Omar Eduardo Gomez",
+    "author_email": "gomeomar@gi-de.com",
+    "date": "Tue Jul 7 09:33:51 2026 +0200",
+    "message": "FIL-2211 UI Android alignment",
+    "epoch": 1783409631,
+    "epoch_utc": null
+  },
+  {
+    "commit": "f17be4adefcbaece3147eb74620cb162d4c0a367",
+    "merge": "ba0bcd5 32fa876",
+    "author": "Kolarz Julian",
+    "author_email": "julian.kolarz@gi-de.com",
+    "date": "Tue Jul 7 06:08:33 2026 +0000",
+    "message": "Merge branch 'fix/FIL-2194-fix-mock-P2P-payment' into 'main'\n\nFIL-2194 fix P2P mock payment bug and added OfflineSdk version\n\nCloses FIL-2194\n\nSee merge request mobile/ios-skyline-sampleapp!29",
+    "epoch": 1783397313,
+    "epoch_utc": 1783404513
+  },
+  {
+    "commit": "32fa8760549f1b1c46e7900f58cbbceae3a50e68",
+    "author": "GitLab CI",
+    "author_email": "gitlab-ci@gi-de.com",
+    "date": "Mon Jul 6 17:54:44 2026 +0200",
+    "message": "FIL-2194 fix P2P mock payment bug and added OfflineSdk version",
+    "epoch": 1783353284,
+    "epoch_utc": null
+  },
+  {
+    "commit": "ba0bcd5a6c70233bc642b097bdcd24bc7f94638e",
+    "merge": "2f2767d bc381cb",
+    "author": "Gomez Omar Eduardo",
+    "author_email": "omareduardo.gomez@gi-de.com",
+    "date": "Thu Jul 2 14:17:15 2026 +0000",
+    "message": "Merge branch 'feat/FIL-0000-sdk_sync' into 'main'\n\nFIL-0000 SDK sync\n\nSee merge request mobile/ios-skyline-sampleapp!28",
+    "epoch": 1782994635,
+    "epoch_utc": 1783001835
+  },
+  {
+    "commit": "bc381cb97325fbbe139536f032f226b59ba78a40",
+    "author": "Omar Eduardo Gomez",
+    "author_email": "gomeomar@gi-de.com",
+    "date": "Thu Jul 2 16:11:39 2026 +0200",
+    "message": "FIL-0000 SDK sync",
+    "epoch": 1783001499,
+    "epoch_utc": null
+  },
+  {
+    "commit": "2f2767d7db30b90ca6366023889cd0025313ea4e",
+    "merge": "7fa1ec1 37c876b",
+    "author": "Gomez Omar Eduardo",
+    "author_email": "omareduardo.gomez@gi-de.com",
+    "date": "Thu Jul 2 12:08:43 2026 +0000",
+    "message": "Merge branch 'feat/FIL-2230-disable_simulator_buttons' into 'main'\n\nFIL-2230 disable options for non supportes simulator options\n\nSee merge request mobile/ios-skyline-sampleapp!27",
+    "epoch": 1782986923,
+    "epoch_utc": 1782994123
+  },
+  {
+    "commit": "37c876bfa39d974277b68c10262f5d05072a73fd",
+    "author": "Gomez Omar Eduardo",
+    "author_email": "omareduardo.gomez@gi-de.com",
+    "date": "Thu Jul 2 12:08:43 2026 +0000",
+    "message": "FIL-2230 disable options for non supportes simulator options",
+    "epoch": 1782986923,
+    "epoch_utc": 1782994123
+  },
+  {
+    "commit": "7fa1ec17c9424781d51d69777cc8aa4a5e36aca7",
+    "merge": "7df40a6 085838d",
+    "author": "Gomez Omar Eduardo",
+    "author_email": "omareduardo.gomez@gi-de.com",
+    "date": "Mon Jun 29 14:28:14 2026 +0000",
+    "message": "Merge branch 'feat/FIL-1708-wallet_selection_II' into 'main'\n\nFIL-1708 Configuration feature\n\nSee merge request mobile/ios-skyline-sampleapp!26",
+    "epoch": 1782736094,
+    "epoch_utc": 1782743294
+  },
+  {
+    "commit": "085838d67c714636604116b9bd4474db3bf4c67e",
+    "author": "Gomez Omar Eduardo",
+    "author_email": "omareduardo.gomez@gi-de.com",
+    "date": "Mon Jun 29 14:28:14 2026 +0000",
+    "message": "FIL-1708 Configuration feature",
+    "epoch": 1782736094,
+    "epoch_utc": 1782743294
+  },
+  {
+    "commit": "7df40a697a17971c197baa966d1230c5d0ee7d83",
+    "merge": "b6accc3 4d4e00c",
+    "author": "Calatrava Javier",
+    "author_email": "javier.calatrava@gi-de.com",
+    "date": "Fri Jun 12 14:11:44 2026 +0200",
+    "message": "Merge branch 'refactor/FIL-1169-refactor-error-handling_v2' into 'main'\n\nFIL-1169 refactor error handling\n\nSee merge request mobile/ios-skyline-sampleapp!23",
+    "epoch": 1781266304,
+    "epoch_utc": null
+  },
+  {
+    "commit": "4d4e00cce6aa8d949247e4aaa43102c51d58bbe4",
+    "author": "Calatrava Javier",
+    "author_email": "javier.calatrava@gi-de.com",
+    "date": "Fri Jun 12 14:11:44 2026 +0200",
+    "message": "FIL-1169 refactor error handling",
+    "epoch": 1781266304,
+    "epoch_utc": null
+  },
+  {
+    "commit": "b6accc3e86fc4729f7f908fb3b3da4e639738526",
+    "merge": "2932605 828c2d1",
+    "author": "Kolarz Julian",
+    "author_email": "julian.kolarz@gi-de.com",
+    "date": "Mon Jun 8 14:16:36 2026 +0000",
+    "message": "Merge branch 'chore/FIL-1979-add-adhoc-ipa' into 'main'\n\nFIL-1979 Archive app for adhoc distribution\n\nSee merge request mobile/ios-skyline-sampleapp!24",
+    "epoch": 1780920996,
+    "epoch_utc": 1780928196
+  },
+  {
+    "commit": "828c2d1fe7f60e34530f35902c67a25d83271a78",
+    "author": "Kolarz Julian",
+    "author_email": "julian.kolarz@gi-de.com",
+    "date": "Mon Jun 8 14:16:36 2026 +0000",
+    "message": "FIL-1979 Archive app for adhoc distribution",
+    "epoch": 1780920996,
+    "epoch_utc": 1780928196
+  },
+  {
+    "commit": "293260526b3326d27a797eb38af78a0991868bae",
+    "merge": "5565393 0fe7b0e",
+    "author": "Calatrava Javier",
+    "author_email": "javier.calatrava@gi-de.com",
+    "date": "Mon Jun 8 12:38:05 2026 +0200",
+    "message": "Merge branch 'feat/FIL-1635-sdk-sync' into 'main'\n\nFIL-1635 Sdk sync\n\nSee merge request mobile/ios-skyline-sampleapp!25",
+    "epoch": 1780915085,
+    "epoch_utc": null
+  },
+  {
+    "commit": "0fe7b0edf31ce3a1d60dc526cd0df34925c82f8c",
+    "author": "Omar Eduardo Gomez",
+    "author_email": "gomeomar@gi-de.com",
+    "date": "Mon Jun 8 12:35:01 2026 +0200",
+    "message": "FIL-1635 Sdk sync",
+    "epoch": 1780914901,
+    "epoch_utc": null
+  },
+  {
+    "commit": "5565393f6496212c9592f85d8c3b1d43afc71e42",
+    "merge": "496941e efa6805",
+    "author": "Klimczak Alexander",
+    "author_email": "alexander.klimczak@gi-de.com",
+    "date": "Mon Jun 1 07:14:32 2026 +0000",
+    "message": "Merge branch 'feat/FIL-1480-mirror-code' into 'main'\n\nFIL-1480 add code mirroring\n\nSee merge request mobile/ios-skyline-sampleapp!21",
+    "epoch": 1780290872,
+    "epoch_utc": 1780298072
+  },
+  {
+    "commit": "efa68055a6bc95fbb6ab2ed058618573b187eab8",
+    "author": "Alexander Klimczak",
+    "author_email": "alexander.klimczak@gi-de.com",
+    "date": "Thu May 21 19:43:24 2026 +0200",
+    "message": "FIL-1480 add code mirroring",
+    "epoch": 1779385404,
+    "epoch_utc": null
+  },
+  {
+    "commit": "496941e266614f1658dad91f35fce1cb384d2b39",
+    "merge": "b979ffa fe24b35",
+    "author": "Calatrava Javier",
+    "author_email": "javier.calatrava@gi-de.com",
+    "date": "Wed May 20 16:39:12 2026 +0200",
+    "message": "Merge branch 'chore/FIL-1833-fix-signing_jca' into 'main'\n\nFIL-12345 Chore/fil 1833 fix signing jca\n\nSee merge request mobile/ios-skyline-sampleapp!20",
+    "epoch": 1779287952,
+    "epoch_utc": null
+  },
+  {
+    "commit": "fe24b35af16ea62acc28db0994b81e76683fc5ac",
+    "author": "Calatrava Javier",
+    "author_email": "javier.calatrava@gi-de.com",
+    "date": "Wed May 20 16:39:12 2026 +0200",
+    "message": "FIL-12345 Chore/fil 1833 fix signing jca",
+    "epoch": 1779287952,
+    "epoch_utc": null
+  },
+  {
+    "commit": "b979ffaf44c1e4c2d7dcfe0ad457585f5d8fc6a4",
+    "merge": "2c1b253 d6a4d7b",
+    "author": "Calatrava Javier",
+    "author_email": "javier.calatrava@gi-de.com",
+    "date": "Tue May 19 17:01:50 2026 +0200",
+    "message": "Merge branch 'chore/FIL-1658-prepare-release-0.4.3' into 'main'\n\nFIL-1658 release: prepare 0.4.3\n\nSee merge request mobile/ios-skyline-sampleapp!18",
+    "epoch": 1779202910,
+    "epoch_utc": null
+  },
+  {
+    "commit": "d6a4d7be439468704838590160b2868a2a5d4fe5",
+    "author": "Calatrava Javier",
+    "author_email": "javier.calatrava@gi-de.com",
+    "date": "Tue May 19 17:01:49 2026 +0200",
+    "message": "FIL-1658 release: prepare 0.4.3",
+    "epoch": 1779202909,
+    "epoch_utc": null
+  },
+  {
+    "commit": "2c1b253cafb3e27806add6750b25afe2196460f7",
+    "merge": "b5639d5 84e568a",
+    "author": "Calatrava Javier",
+    "author_email": "javier.calatrava@gi-de.com",
+    "date": "Fri May 15 12:43:35 2026 +0200",
+    "message": "Merge branch 'feat/FIL-1658-Missing-scroll-on-open-transaction-list' into 'main'\n\nFIL-1658 Missing scroll on the open transaction list.\n\nSee merge request mobile/ios-skyline-sampleapp!17",
+    "epoch": 1778841815,
+    "epoch_utc": null
+  },
+  {
+    "commit": "84e568a48a0d26bbeaca76341d0c22d8f20c884c",
+    "author": "Calatrava Javier",
+    "author_email": "javier.calatrava@gi-de.com",
+    "date": "Fri May 15 12:43:34 2026 +0200",
+    "message": "FIL-1658 Missing scroll on the open transaction list.",
+    "epoch": 1778841814,
+    "epoch_utc": null
+  },
+  {
+    "commit": "b5639d5cbdd75f3cf299026a8cb11cc426cee660",
+    "merge": "c68b164 3cf610c",
+    "author": "Calatrava Javier",
+    "author_email": "javier.calatrava@gi-de.com",
+    "date": "Fri May 8 10:53:43 2026 +0200",
+    "message": "Merge branch 'feat/FIL-1652-Replace-error-message' into 'main'\n\nFIL-1652 Replaced error message text.\n\nSee merge request mobile/ios-skyline-sampleapp!16",
+    "epoch": 1778230423,
+    "epoch_utc": null
+  },
+  {
+    "commit": "3cf610c8ce8a8ebcbccca894f807520b2d2f661f",
+    "author": "Calatrava Javier",
+    "author_email": "javier.calatrava@gi-de.com",
+    "date": "Fri May 8 10:53:43 2026 +0200",
+    "message": "FIL-1652 Replaced error message text.",
+    "epoch": 1778230423,
+    "epoch_utc": null
+  },
+  {
+    "commit": "c68b1647c87a63df837362fc5dad37782ff92bb7",
+    "merge": "ed99677 676f816",
+    "author": "Morales Daniel",
+    "author_email": "daniel.morales.1@gi-de.com",
+    "date": "Thu May 7 06:56:05 2026 +0000",
+    "message": "Merge branch 'feature/FIL-1240-add-codeowners-file-to-our-repos' into 'main'\n\nFIL-1240: Add codeowners file to our repos\n\nSee merge request mobile/ios-skyline-sampleapp!15",
+    "epoch": 1778129765,
+    "epoch_utc": 1778136965
+  },
+  {
+    "commit": "676f8169fb2d20a78be84dc00ab371608837312b",
+    "author": "Morales Daniel",
+    "author_email": "daniel.morales.1@gi-de.com",
+    "date": "Thu May 7 06:56:04 2026 +0000",
+    "message": "FIL-1240: Add codeowners file to our repos",
+    "epoch": 1778129764,
+    "epoch_utc": 1778136964
+  },
+  {
+    "commit": "ed99677fa4c4e19bc0532bc6fa1f58309f93d0b3",
+    "merge": "9a2ed99 e21181d",
+    "author": "Kolarz Julian",
+    "author_email": "julian.kolarz@gi-de.com",
+    "date": "Wed May 6 14:58:46 2026 +0000",
+    "message": "Merge branch 'FIL-1628' into 'main'\n\nFIL-1628 Alert replaced by red label to unify with Android\n\nSee merge request mobile/ios-skyline-sampleapp!14",
+    "epoch": 1778072326,
+    "epoch_utc": 1778079526
+  },
+  {
+    "commit": "e21181d1e3b308e7c219fe6193dad3077c06e690",
+    "author": "Omar Eduardo Gomez",
+    "author_email": "gomeomar@gi-de.com",
+    "date": "Wed May 6 15:23:57 2026 +0200",
+    "message": "FIL-1628 Alert replaced by red label to unify with Android",
+    "epoch": 1778073837,
+    "epoch_utc": null
+  },
+  {
+    "commit": "9a2ed999cae4bdf216fa96bcc203b2c56fc36b1d",
+    "merge": "dc8decb 34d9b3c",
+    "author": "Calatrava Javier",
+    "author_email": "javier.calatrava@gi-de.com",
+    "date": "Wed May 6 15:08:34 2026 +0200",
+    "message": "Merge branch 'revert-c8f6a070' into 'main'\n\nReverted support for biometric authentication\n\nSee merge request mobile/ios-skyline-sampleapp!13",
+    "epoch": 1778072914,
+    "epoch_utc": null
+  },
+  {
+    "commit": "34d9b3c7d5b3321d1f825b03b1fe6c0f9430bf38",
+    "author": "Calatrava Javier",
+    "author_email": "javier.calatrava@gi-de.com",
+    "date": "Wed May 6 15:08:33 2026 +0200",
+    "message": "Reverted support for biometric authentication",
+    "epoch": 1778072913,
+    "epoch_utc": null
+  },
+  {
+    "commit": "dc8decba81f89366f7dcc371c9c1c38d34da27cd",
+    "merge": "ab4ed09 2894ae2",
+    "author": "Kolarz Julian",
+    "author_email": "julian.kolarz@gi-de.com",
+    "date": "Wed May 6 10:56:54 2026 +0000",
+    "message": "Merge branch 'feature/Improve-tagging' into 'main'\n\nUpdate release pipeline\n\nSee merge request mobile/ios-skyline-sampleapp!12",
+    "epoch": 1778057814,
+    "epoch_utc": 1778065014
+  },
+  {
+    "commit": "2894ae21f2504fc4b8f2e6504fd172ba23bdfa01",
+    "author": "Kolarz Julian",
+    "author_email": "julian.kolarz@gi-de.com",
+    "date": "Wed May 6 10:56:54 2026 +0000",
+    "message": "Update release pipeline",
+    "epoch": 1778057814,
+    "epoch_utc": 1778065014
+  },
+  {
+    "commit": "ab4ed0908666b49f7b00322010d4e0e9f54122f3",
+    "merge": "9383868 dac5a34",
+    "author": "Kolarz Julian",
+    "author_email": "julian.kolarz@gi-de.com",
+    "date": "Mon May 4 13:58:11 2026 +0000",
+    "message": "Merge branch 'feature/FIL-1238-biometric-authentication_v2' into 'main'\n\nFeature/fil 1238 biometric authentication v2\n\nSee merge request mobile/ios-skyline-sampleapp!11",
+    "epoch": 1777895891,
+    "epoch_utc": 1777903091
+  },
+  {
+    "commit": "dac5a34c71c245b256eb07c7b38cefeb9c9027d1",
+    "author": "Calatrava Javier",
+    "author_email": "javier.calatrava@gi-de.com",
+    "date": "Mon May 4 15:58:10 2026 +0200",
+    "message": "Feature/fil 1238 biometric authentication v2",
+    "epoch": 1777903090,
+    "epoch_utc": null
+  },
+  {
+    "commit": "9383868079bb623e90b4a7720541dcfdf7dafb20",
+    "merge": "ca95639 96bb759",
+    "author": "Kolarz Julian",
+    "author_email": "julian.kolarz@gi-de.com",
+    "date": "Fri Apr 24 12:37:48 2026 +0000",
+    "message": "Merge branch 'feature/FIL-1199-funding-defunding' into 'main'\n\nFIL-1199 added funding and defunding\n\nSee merge request mobile/ios-skyline-sampleapp!9",
+    "epoch": 1777027068,
+    "epoch_utc": 1777034268
+  },
+  {
+    "commit": "96bb759a412395e5299317d12ce04f2ec19a0742",
+    "author": "Kolarz Julian",
+    "author_email": "julian.kolarz@gi-de.com",
+    "date": "Fri Apr 24 12:37:48 2026 +0000",
+    "message": "FIL-1199 added funding and defunding",
+    "epoch": 1777027068,
+    "epoch_utc": 1777034268
+  },
+  {
+    "commit": "ca956390f22df329e644e88d1075ef4a407de159",
+    "merge": "16be2eb 68cddc8",
+    "author": "Kolarz Julian",
+    "author_email": "julian.kolarz@gi-de.com",
+    "date": "Fri Mar 27 14:33:49 2026 +0000",
+    "message": "Merge branch 'feature/improve-release-pipeline' into 'main'\n\nUpdate the release pipeline that it runs, if a tag is created\n\nSee merge request mobile/ios-skyline-sampleapp!7",
+    "epoch": 1774618429,
+    "epoch_utc": 1774622029
+  },
+  {
+    "commit": "68cddc8975da1ac15d0a73bb1b04ac8286fe93ac",
+    "author": "Kolarz Julian",
+    "author_email": "julian.kolarz@gi-de.com",
+    "date": "Fri Mar 27 14:33:49 2026 +0000",
+    "message": "Update the release pipeline that it runs, if a tag is created",
+    "epoch": 1774618429,
+    "epoch_utc": 1774622029
+  },
+  {
+    "commit": "16be2eb42125befecddec7b75af8e3fee4328085",
+    "merge": "94040c7 587c177",
+    "author": "Kolarz Julian",
+    "author_email": "julian.kolarz@gi-de.com",
+    "date": "Fri Mar 27 10:42:22 2026 +0000",
+    "message": "Merge branch 'feature/FIL-856-integrityCheck' into 'main'\n\nFeature/fil 856 integritycheck + retry payments\n\nSee merge request mobile/ios-skyline-sampleapp!6",
+    "epoch": 1774604542,
+    "epoch_utc": 1774608142
+  },
+  {
+    "commit": "587c177682caac3bf112a9fc9c55655464272adf",
+    "author": "Kolarz Julian",
+    "author_email": "julian.kolarz@gi-de.com",
+    "date": "Fri Mar 27 10:42:21 2026 +0000",
+    "message": "Feature/fil 856 integritycheck + retry payments",
+    "epoch": 1774604541,
+    "epoch_utc": 1774608141
+  },
+  {
+    "commit": "94040c78664b6233794308b4671bcf918e83cf31",
+    "merge": "68ae671 6c8dd2e",
+    "author": "Kolarz Julian",
+    "author_email": "julian.kolarz@gi-de.com",
+    "date": "Tue Mar 24 09:49:10 2026 +0000",
+    "message": "Merge branch 'bugfix/FIL-1149-iOS-sample-app-defects' into 'main'\n\nBugfix/fil 1149 ios sample app defects\n\nSee merge request mobile/ios-skyline-sampleapp!4",
+    "epoch": 1774342150,
+    "epoch_utc": 1774345750
+  },
+  {
+    "commit": "6c8dd2ebc8f8d5278f1325aa62e2ea76258c54b0",
+    "author": "Klimczak Alexander",
+    "author_email": "alexander.klimczak@gi-de.com",
+    "date": "Tue Mar 24 09:49:09 2026 +0000",
+    "message": "Bugfix/fil 1149 ios sample app defects",
+    "epoch": 1774342149,
+    "epoch_utc": 1774345749
+  },
+  {
+    "commit": "68ae671ffc0368e65ecfa7efa64d14a270201692",
+    "merge": "e374092 d8c0f88",
+    "author": "Kolarz Julian",
+    "author_email": "julian.kolarz@gi-de.com",
+    "date": "Tue Mar 17 13:55:33 2026 +0000",
+    "message": "Merge branch 'feature/FIL-850-initialize-applet-mock' into 'main'\n\nFIL-850, FIL-925, FIL-859 P2P payment, wallet information, wallet configuration\n\nSee merge request mobile/ios-skyline-sampleapp!3",
+    "epoch": 1773752133,
+    "epoch_utc": 1773755733
+  },
+  {
+    "commit": "d8c0f88c85e6479967b98006d107732be9e0300b",
+    "author": "Kolarz Julian",
+    "author_email": "julian.kolarz@gi-de.com",
+    "date": "Tue Mar 17 13:55:33 2026 +0000",
+    "message": "FIL-850, FIL-925, FIL-859 P2P payment, wallet information, wallet configuration",
+    "epoch": 1773752133,
+    "epoch_utc": 1773755733
+  },
+  {
+    "commit": "e3740920f08135dfc2129992b7d69b5ea33a1249",
+    "merge": "5653d62 67397a5",
+    "author": "Kolarz Julian",
+    "author_email": "julian.kolarz@gi-de.com",
+    "date": "Thu Feb 19 12:17:19 2026 +0000",
+    "message": "Merge branch 'feature/FIL-205-set-up-sampleapp' into 'main'\n\nFIL-205 set up sampleapp\n\nSee merge request mobile/ios-skyline-sampleapp!1",
+    "epoch": 1771499839,
+    "epoch_utc": 1771503439
+  },
+  {
+    "commit": "67397a5f9bf61fda02d267258d0013977c85d6eb",
+    "author": "Kolarz Julian",
+    "author_email": "julian.kolarz@gi-de.com",
+    "date": "Thu Feb 19 12:17:19 2026 +0000",
+    "message": "FIL-205 set up sampleapp",
+    "epoch": 1771499839,
+    "epoch_utc": 1771503439
+  },
+  {
+    "commit": "5653d620525156ece5b0d04dff92907a7ea55cc5",
+    "author": "Administrator",
+    "author_email": "gitlab_admin_f78124@example.com",
+    "date": "Fri Jan 9 11:16:54 2026 +0000",
+    "message": "Initial commit",
+    "epoch": 1767953814,
+    "epoch_utc": 1767957414
+  }
+]
