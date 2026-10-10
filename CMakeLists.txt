@@ -28,6 +28,9 @@ target_link_libraries(hello tvision libgit2::libgit2package)
 target_link_libraries(repo_menu tvision libgit2::libgit2package nlohmann_json::nlohmann_json)
 target_link_libraries(branch_demo tvision libgit2::libgit2package nlohmann_json::nlohmann_json)
 
+add_executable(gitclient src/gitclient.cpp)
+target_include_directories(gitclient PRIVATE include src/common)
+target_link_libraries(gitclient libgit2::libgit2package)
 ## Main App
 add_executable(simple ${MODEL_SOURCES} ${COMMON_SOURCES} ${DATA_SOURCES} ${APP_SOURCES})
 target_include_directories(simple PRIVATE src src/common src/model src/data src/app)
