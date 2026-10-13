@@ -18,6 +18,25 @@ add_subdirectory(src/model)
 add_subdirectory(src/data)
 add_subdirectory(src/app)
 
+add_library(project_pch INTERFACE)
+target_precompile_headers(project_pch INTERFACE
+  <vector>    
+  <string>
+  <map>
+  <set>
+  <array>
+  <algorithm>
+  <memory>
+  <utility>
+  <iostream>
+  <fstream>
+  <sstream>
+  <string_view>
+  <thread>
+  <mutex>
+  "src/common/libgit_util.hpp"
+)
+
 add_executable(hello src/main.cpp)
 add_executable(repo_menu src/repo_menu.cpp ${MODEL_SOURCES} ${COMMON_SOURCES} ${DATA_SOURCES})
 add_executable(branch_demo src/branch_app.cpp ${MODEL_SOURCES} ${COMMON_SOURCES} ${DATA_SOURCES})
@@ -30,7 +49,7 @@ target_link_libraries(branch_demo tvision libgit2::libgit2package nlohmann_json:
 
 add_executable(gitclient src/gitclient.cpp)
 target_include_directories(gitclient PRIVATE include src/common)
-target_link_libraries(gitclient libgit2::libgit2package)
+target_link_libraries(gitclient libgit2::libgit2package project_pch)
 ## Main App
 add_executable(simple ${MODEL_SOURCES} ${COMMON_SOURCES} ${DATA_SOURCES} ${APP_SOURCES})
 target_include_directories(simple PRIVATE src src/common src/model src/data src/app)
