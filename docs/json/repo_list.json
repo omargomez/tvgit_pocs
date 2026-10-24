@@ -1,13 +1,46 @@
 [
-   "android-skyline-offlinesdk",
-   "android-skyline-sampleapp",
-   "ios-skyline-offlinesdk",
-   "ios-skyline-offlinesdk-swift-package",
-   "ios-skyline-sampleapp",
-   "middleware-skyline",
-   "mobile-ios",
-   "SampleAppTest.xcworkspace",
-   "swift-tui-examples",
-   "tvgit_pocs",
-   "tvision"
+   {
+      "name": "android-skyline-offlinesdk",
+      "path": "/Users/edpadilla/Repos/android-skyline-offlinesdk"
+   },
+   {
+      "name": "android-skyline-sampleapp",
+      "path": "/Users/edpadilla/Repos/android-skyline-sampleapp"
+   },
+   {
+      "name": "ios-skyline-offlinesdk",
+      "path": "/Users/edpadilla/Repos/ios-skyline-offlinesdk"
+   },
+   {
+      "name": "ios-skyline-offlinesdk-swift-package",
+      "path": "/Users/edpadilla/Repos/ios-skyline-offlinesdk-swift-package"
+   },
+   {
+      "name": "ios-skyline-sampleapp",
+      "path": "/Users/edpadilla/Repos/ios-skyline-sampleapp"
+   },
+   {
+      "name": "middleware-skyline",
+      "path": "/Users/edpadilla/Repos/middleware-skyline"
+   },
+   {
+      "name": "mobile-ios",
+      "path": "/Users/edpadilla/Repos/mobile-ios"
+   },
+   {
+      "name": "SampleAppTest.xcworkspace",
+      "path": "/Users/edpadilla/Repos/SampleAppTest.xcworkspace"
+   },
+   {
+      "name": "swift-tui-examples",
+      "path": "/Users/edpadilla/Repos/swift-tui-examples"
+   },
+   {
+      "name": "tvgit_pocs",
+      "path": "/Users/edpadilla/Repos/tvgit_pocs"
+   },
+   {
+      "name": "tvision",
+      "path": "/Users/edpadilla/Repos/tvision"
+   }
 ]

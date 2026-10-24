@@ -5,11 +5,13 @@
 
 #include "branch.hpp"
 #include "commit_item.hpp"
+#include "root_repo.hpp"
 
 class CommitDataAccess
 {
 public:
-    CommitDataAccess(BranchEntry parent_branch_value = {}) :
+    CommitDataAccess(RootRepo root_repo_value = RootRepo{}, BranchEntry parent_branch_value = {}) :
+        root_repo(std::move(root_repo_value)),
         parent_branch(std::move(parent_branch_value))
     {
     }
@@ -18,5 +20,6 @@ public:
 
     virtual std::vector<CommitItem> get_commits() const = 0;
 
+    RootRepo root_repo;
     BranchEntry parent_branch;
 };

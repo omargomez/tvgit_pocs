@@ -47,20 +47,25 @@ void TVGitApp::handleEvent( TEvent& event )
                 greetingBox();
                 clearEvent( event );
                 break;
-            case RepoCommand:
-                showBranches();
-                clearEvent( event );
-                break;
             default:
+                if( event.message.command >= RepoCommand )
+                    {
+                    auto repos = model.root_repo_data_access->get_root_repos();
+                    size_t index = event.message.command - RepoCommand;
+                    if( index < repos.size() )
+                        {
+                        showBranches( repos[index] );
+                        clearEvent( event );
+                        }
+                    }
                 break;
             }
         }
 }
 
-void TVGitApp::showBranches()
+void TVGitApp::showBranches(const RootRepo &repo)
 {
-    auto anyRepo = model.root_repo_data_access.get_root_repos().front();
-    auto win = (BranchesDlg *) validView( BranchesDlg::fromBranchRepository( anyRepo ) );
+    auto win = (BranchesDlg *) validView( BranchesDlg::fromBranchRepository( repo ) );
     if( win != 0 )
         {
         win->setDelegate( this );
@@ -70,7 +75,7 @@ void TVGitApp::showBranches()
 
 void TVGitApp::onBranchSelected(BranchesDlg *sender, const BranchEntry &branch)
 {
-    auto win = (CommitsDlg *) validView(new CommitsDlg(branch));
+    auto win = (CommitsDlg *) validView(new CommitsDlg(sender->repo(), branch));
     // win->delegate = nullptr; // TODO: implement delegate for commits
     win->loadData();
     if( win != 0 )
@@ -105,9 +110,11 @@ TStatusLine *TVGitApp::initStatusLine( TRect r )
 TSubMenu *TVGitApp::repos_menu() {
     TSubMenu* result = new TSubMenu( "~R~epositories", kbAltR );
     
-    auto repos = DataAccessFactory::create_root_repo_data_access().get_root_repos();
+    auto repos = DataAccessFactory::create_root_repo_data_access()->get_root_repos();
+    auto count = 0;
     for (const auto& r : repos) {
-        *result + *new TMenuItem( r.name.c_str(), RepoCommand, kbNoKey );
+        *result + *new TMenuItem( r.name.c_str(), RepoCommand + count, kbNoKey );
+        count++;
     }
     
     return result;

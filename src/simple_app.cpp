@@ -104,7 +104,7 @@ void SimpleApp::handleEvent( TEvent& event )
 
 void SimpleApp::showBranches()
 {
-    auto anyRepo = model.root_repo_data_access.get_root_repos().front();
+    auto anyRepo = model.root_repo_data_access->get_root_repos().front();
     auto win = (BranchesDlg *) validView( BranchesDlg::fromBranchRepository( anyRepo ) );
     if( win != 0 )
         {
@@ -115,7 +115,7 @@ void SimpleApp::showBranches()
 
 void SimpleApp::onBranchSelected(BranchesDlg *sender, const BranchEntry &branch)
 {
-    auto win = (CommitsDlg *) validView(new CommitsDlg(branch));
+    auto win = (CommitsDlg *) validView(new CommitsDlg(sender->repo(), branch));
     // win->delegate = nullptr; // TODO: implement delegate for commits
     win->loadData();
     if( win != 0 )
@@ -150,7 +150,7 @@ TStatusLine *SimpleApp::initStatusLine( TRect r )
 TSubMenu *SimpleApp::repos_menu() {
     TSubMenu* result = new TSubMenu( "~R~epositories", kbAltR );
     
-    auto repos = DataAccessFactory::create_root_repo_data_access().get_root_repos();
+    auto repos = DataAccessFactory::create_root_repo_data_access()->get_root_repos();
     for (const auto& r : repos) {
         *result + *new TMenuItem( r.name.c_str(), RepoCommand, kbNoKey );
     }
