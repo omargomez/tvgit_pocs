@@ -23,7 +23,7 @@
 
 // Libgit
 const int GreetThemCmd = 100;
-const int RepoCommand = 102;
+const int RepoCommand = 10000;
 
 class TVGitApp : public TApplication, 
     public BranchesDlgDelegate
@@ -44,5 +44,5 @@ private:
 
     void greetingBox();
     static TSubMenu *repos_menu();
-    void showBranches();
+    void showBranches(const RootRepo &repo);
 };

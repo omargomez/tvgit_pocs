@@ -150,6 +150,26 @@ public:
     static std::string git_commit_message(const GitCommitPtr& commit) {
         return ::git_commit_message(commit.get());
     }
+
+    static std::string git_commit_summary(const GitCommitPtr& commit) {
+        const char * summary = ::git_commit_summary(commit.get());
+        return summary ? summary : "";
+    }
+
+    static std::string git_commit_author_name(const GitCommitPtr& commit) {
+        const git_signature * author = ::git_commit_author(commit.get());
+        return author && author->name ? author->name : "";
+    }
+
+    static std::string git_commit_author_email(const GitCommitPtr& commit) {
+        const git_signature * author = ::git_commit_author(commit.get());
+        return author && author->email ? author->email : "";
+    }
+
+    static git_time_t git_commit_author_time(const GitCommitPtr& commit) {
+        const git_signature * author = ::git_commit_author(commit.get());
+        return author ? author->when.time : 0;
+    }
 };
 
 struct GitRevwalkDeleter {
@@ -176,6 +196,14 @@ public:
         int rc = ::git_revwalk_push_head(walk.get());
         if (rc < 0) {
             throw std::runtime_error{std::string{"failed to push HEAD to revwalk: "} +
+                                     git_error_last()->message};
+        }
+    }
+
+    static void git_revwalk_push_ref(const GitRevwalkPtr& walk, const std::string& refname) {
+        int rc = ::git_revwalk_push_ref(walk.get(), refname.c_str());
+        if (rc < 0) {
+            throw std::runtime_error{"failed to push ref '" + refname + "' to revwalk: " +
                                      git_error_last()->message};
         }
     }

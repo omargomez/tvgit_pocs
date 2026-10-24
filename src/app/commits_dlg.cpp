@@ -9,17 +9,19 @@
 CommitsDlg::CommitsDlg( const TRect& bounds, const char *aTitle ) :
     TWindowInit(&TDialog::initFrame),
     TDialog( bounds, aTitle ),
+    _repo(),
     _parentBranch(),
-    _commitDataAccess(DataAccessFactory::create_commit_data_access(_parentBranch))
+    _commitDataAccess(DataAccessFactory::create_commit_data_access(_repo, _parentBranch))
 {
     addChildren();
 }
 
-CommitsDlg::CommitsDlg(const BranchEntry &parent_branch) :
+CommitsDlg::CommitsDlg(const RootRepo &repo, const BranchEntry &parent_branch) :
     TWindowInit(&TDialog::initFrame),
     TDialog( TRect( 5, 3, 75, 20 ), "Commits" ),
+    _repo(repo),
     _parentBranch(parent_branch),
-    _commitDataAccess(DataAccessFactory::create_commit_data_access(parent_branch))
+    _commitDataAccess(DataAccessFactory::create_commit_data_access(repo, parent_branch))
 {
     addChildren();
 }

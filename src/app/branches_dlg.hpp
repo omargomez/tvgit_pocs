@@ -41,6 +41,7 @@ public:
     
     static BranchesDlg* fromBranchRepository(const RootRepo &repo);
     void setDelegate(BranchesDlgDelegate *delegate) { _delegate = delegate; }
+    const RootRepo& repo() const { return _repo; }
     void loadDataFromRepository() {
         auto branches = _branchDataAccess->get_branches();
         setBranches(branches);

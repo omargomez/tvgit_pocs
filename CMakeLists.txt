@@ -37,13 +37,6 @@ target_precompile_headers(project_pch INTERFACE
   "src/common/libgit_util.hpp"
 )
 
-add_executable(repo_menu src/repo_menu.cpp ${MODEL_SOURCES} ${COMMON_SOURCES} ${DATA_SOURCES})
-add_executable(branch_demo src/branch_app.cpp ${MODEL_SOURCES} ${COMMON_SOURCES} ${DATA_SOURCES})
-target_include_directories(repo_menu PRIVATE src src/common src/model src/data)
-target_include_directories(branch_demo PRIVATE src src/common src/model src/data)
-target_link_libraries(repo_menu tvision libgit2::libgit2package nlohmann_json::nlohmann_json)
-target_link_libraries(branch_demo tvision libgit2::libgit2package nlohmann_json::nlohmann_json)
-
 add_executable(gitclient src/gitclient.cpp)
 target_include_directories(gitclient PRIVATE include src/common)
 target_link_libraries(gitclient libgit2::libgit2package project_pch)
@@ -52,8 +45,7 @@ add_executable(tvgit src/tvgit_main.cpp ${MODEL_SOURCES} ${COMMON_SOURCES} ${DAT
 target_include_directories(tvgit PRIVATE src src/common src/model src/data src/app)
 target_link_libraries(tvgit tvision libgit2::libgit2package nlohmann_json::nlohmann_json project_pch)
 
-add_custom_target(run
-  COMMAND $<TARGET_FILE:branch_demo>
-  DEPENDS branch_demo
-  USES_TERMINAL
-)
+### Repos test target
+add_executable(repo_test src/repo_test.cpp ${MODEL_SOURCES} ${COMMON_SOURCES} ${DATA_SOURCES})
+target_include_directories(repo_test PRIVATE src src/common src/model src/data)
+target_link_libraries(repo_test tvision libgit2::libgit2package nlohmann_json::nlohmann_json)

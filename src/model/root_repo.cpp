@@ -8,6 +8,7 @@ RootRepo map_root_repo(const nlohmann::json& value)
         repo.name = value.get<std::string>();
     } else {
         repo.name = value.at("name").get<std::string>();
+        repo.path = value.at("path").get<std::string>();
     }
 
     return repo;
